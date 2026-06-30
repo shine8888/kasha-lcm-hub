@@ -1,0 +1,233 @@
+{
+  "id": "EPD_HUB-5749_2026-06-27_en",
+  "sourceFile": "EPD_HUB-5749_2026-06-27_en.pdf",
+  "sourceFileHash": "fa3d532e0c8b6b049a2934145ff43a96053aa63a415d5cc817a187969e1807ba",
+  "extractedAt": "2026-06-30T03:28:39.533Z",
+  "extractor": {
+    "model": "claude-sonnet-4-6",
+    "schemaVersion": "1"
+  },
+  "manufacturer": {
+    "value": "Entire Concrete",
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Manufacturer Entire Concrete",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "productName": {
+    "value": "N25/10/100 Xencrete",
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Product name N25/10/100 Xencrete",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "declarationNumber": {
+    "value": "HUB-5749",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "EPD HUB, HUB-5749",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "publishedDate": "2026-03-17",
+  "validUntil": "2031-03-16",
+  "standard": {
+    "name": "EN 15804:2012+A2:2019/AC:2021 and ISO 14025",
+    "pcr": "EN 16757 Product Category Rules for concrete and concrete elements",
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Reference standard EN 15804:2012+A2:2019/AC:2021 and ISO 14025\nPCR EPD Hub Core PCR version 1.2, 24 Mar 2025\ncPCR EN 16757 Product Category Rules for concrete and concrete elements",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "functionalUnit": {
+    "quantity": 1,
+    "unit": "cubic meter",
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Declared unit 1 cubic meter",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "compressiveStrength": {
+    "valueMpa": 25,
+    "strengthClass": "N25",
+    "testAgeDays": 28,
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Compressive strength class:\nN25\nStrength evaluation days:\n28 days",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "manufacturingLocation": {
+    "plant": "Cameron Park and Singleton",
+    "city": "Hunter Valley",
+    "region": "NSW",
+    "country": "Australia",
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Place of production Hunter Valley, NSW, Australia",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "lifeCycle": {
+    "A1-A3": {
+      "declared": true,
+      "gwpTotal": 209,
+      "gwpFossil": 208,
+      "gwpBiogenic": 0.0838,
+      "gwpLuluc": 0.0458,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 8,
+        "snippet": "GWP – total1) kg CO2e 1.75E+02 2.98E+01 3.67E+00 2.09E+02",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A4": {
+      "declared": true,
+      "gwpTotal": 2.93,
+      "gwpFossil": 2.93,
+      "gwpBiogenic": 0.000663,
+      "gwpLuluc": 0.00131,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 8,
+        "snippet": "GWP – total1) kg CO2e 1.75E+02 2.98E+01 3.67E+00 2.09E+02 2.93E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A5": {
+      "declared": true,
+      "gwpTotal": 14.4,
+      "gwpFossil": 14.4,
+      "gwpBiogenic": 0.00331,
+      "gwpLuluc": 0.00243,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 8,
+        "snippet": "GWP – total1) kg CO2e 1.75E+02 2.98E+01 3.67E+00 2.09E+02 2.93E+00 1.44E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B1": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "B2": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "B3": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "B4": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "B5": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "B6": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "B7": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "C1": {
+      "declared": true,
+      "gwpTotal": 4.35,
+      "gwpFossil": 4.35,
+      "gwpBiogenic": 0.000444,
+      "gwpLuluc": 0.000446,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 8,
+        "snippet": "GWP – total1) kg CO2e ... 4.35E+00 1.23E+01 7.00E+00 4.28E+00 ‐1.18E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C2": {
+      "declared": true,
+      "gwpTotal": 12.3,
+      "gwpFossil": 12.3,
+      "gwpBiogenic": 0.00279,
+      "gwpLuluc": 0.0055,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 8,
+        "snippet": "GWP – total1) kg CO2e ... 4.35E+00 1.23E+01 7.00E+00 4.28E+00 ‐1.18E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C3": {
+      "declared": true,
+      "gwpTotal": 7,
+      "gwpFossil": 7,
+      "gwpBiogenic": -0.000714,
+      "gwpLuluc": 0.000717,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 8,
+        "snippet": "GWP – total1) kg CO2e ... 4.35E+00 1.23E+01 7.00E+00 4.28E+00 ‐1.18E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C4": {
+      "declared": true,
+      "gwpTotal": 4.28,
+      "gwpFossil": 4.28,
+      "gwpBiogenic": -0.00136,
+      "gwpLuluc": 0.00245,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 8,
+        "snippet": "GWP – total1) kg CO2e ... 4.35E+00 1.23E+01 7.00E+00 4.28E+00 ‐1.18E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "D": {
+      "declared": true,
+      "gwpTotal": -11.8,
+      "gwpFossil": -11.8,
+      "gwpBiogenic": -0.0371,
+      "gwpLuluc": -0.0163,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 8,
+        "snippet": "GWP – total1) kg CO2e ... ‐1.18E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    }
+  },
+  "notes": [
+    "The EPD covers a single product: N25/10/100 Xencrete (ready-mix concrete, 25MPa characteristic strength, 10mm aggregate, 100mm slump).",
+    "Manufacturing locations include two plants: Cameron Park and Singleton, NSW, Australia. Results are production-weighted averages.",
+    "GWP-total A1-A3 reported as 2.09E+02 (209 kg CO2e) in the LCA table; the Environmental Data Summary rounds this to 208 kg CO2e. The LCA table value (209) is used.",
+    "GWP-fossil A1-A3 reported as 2.08E+02 in the LCA table.",
+    "B1-B7 are all Not Declared (ND) as stated in the system boundary table.",
+    "Modules A1, A2, A3 are reported individually as well as combined A1-A3; the combined A1-A3 row is used directly.",
+    "The EPD also reports EN 15804+A1 CML indicators on page 10 — these are supplementary and not used for primary GWP extraction."
+  ]
+}

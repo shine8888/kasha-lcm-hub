@@ -1,0 +1,213 @@
+{
+  "id": "epd-ies-0021754-001-acm-rockbank-ar2520",
+  "sourceFile": "epd-ies-0021754-001-acm-rockbank-ar2520.pdf",
+  "sourceFileHash": "51924aff783d706210251d26bd972e8fc5e508162a91d9f42eefa27deed3333b",
+  "extractedAt": "2026-06-30T03:34:44.035Z",
+  "extractor": {
+    "model": "claude-sonnet-4-6",
+    "schemaVersion": "1"
+  },
+  "manufacturer": {
+    "value": "Aurora Construction Materials",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "AURORA CONSTRUCTION MATERIALS\nAR2520 pre-mixed concrete\nmanufactured at\nRockbank",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "productName": {
+    "value": "AR2520 pre-mixed concrete",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "AR2520 pre-mixed concrete\nmanufactured at\nRockbank",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "declarationNumber": {
+    "value": "EPD-IES-0021754:001",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "EPD Registration no. EPD-IES-0021754:001",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "publishedDate": "2025-08-15",
+  "validUntil": "2030-08-15",
+  "standard": {
+    "name": "EN 15804:2012+A2:2019/AC:2021",
+    "pcr": "PCR 2019:14 Construction Products, Version 2.0.1; c-PCR-003 Concrete and concrete elements, version 2025-04-08",
+    "provenance": {
+      "pageNumber": 3,
+      "snippet": "PCR: PCR 2019:14 Construction Products, Version 2.0.1, 2025-06-05\nc-PCR: c-PCR-003 (to 2019:14) Concrete and concrete elements, version 2025-04-08",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "functionalUnit": {
+    "quantity": 1,
+    "unit": "m3",
+    "provenance": {
+      "pageNumber": 7,
+      "snippet": "1 cubic metre (m3) of Premixed concrete with a 25MPa strength grade and identifying characteristics",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "compressiveStrength": {
+    "valueMpa": 25,
+    "strengthClass": "25MPa",
+    "testAgeDays": null,
+    "provenance": {
+      "pageNumber": 5,
+      "snippet": "Product code AR2520 | Strength grade 25MPa | Density 2 270 kg/m3 | Applications General use concrete",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "manufacturingLocation": {
+    "plant": "Rockbank",
+    "city": "Rockbank",
+    "region": "Victoria",
+    "country": "Australia",
+    "provenance": {
+      "pageNumber": 5,
+      "snippet": "The processes in modules A1-A3 have been modelled to represent concrete production in Rockbank, near Melbourne, Australia.",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "lifeCycle": {
+    "A1-A3": {
+      "declared": true,
+      "gwpTotal": 140,
+      "gwpFossil": 140,
+      "gwpBiogenic": -0.24,
+      "gwpLuluc": 0.0119,
+      "unit": "kg CO2-eq.",
+      "provenance": {
+        "pageNumber": 18,
+        "snippet": "GWP-total kg CO2-eq. 1.40E+02 | GWP-fossil 1.40E+02 | GWP-biogenic -2.40E-01 | GWP-luluc 1.19E-02",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A4": {
+      "declared": false,
+      "reason": "ND = module is not declared. When a module is not accounted for, the stage is marked with 'ND' (Not Declared)."
+    },
+    "A5": {
+      "declared": false,
+      "reason": "ND = module is not declared. When a module is not accounted for, the stage is marked with 'ND' (Not Declared)."
+    },
+    "B1": {
+      "declared": false,
+      "reason": "ND = module is not declared."
+    },
+    "B2": {
+      "declared": false,
+      "reason": "ND = module is not declared."
+    },
+    "B3": {
+      "declared": false,
+      "reason": "ND = module is not declared."
+    },
+    "B4": {
+      "declared": false,
+      "reason": "ND = module is not declared."
+    },
+    "B5": {
+      "declared": false,
+      "reason": "ND = module is not declared."
+    },
+    "B6": {
+      "declared": false,
+      "reason": "ND = module is not declared."
+    },
+    "B7": {
+      "declared": false,
+      "reason": "ND = module is not declared."
+    },
+    "C1": {
+      "declared": true,
+      "gwpTotal": 12,
+      "gwpFossil": 12,
+      "gwpBiogenic": 0.000797,
+      "gwpLuluc": 0.00000576,
+      "unit": "kg CO2-eq.",
+      "provenance": {
+        "pageNumber": 18,
+        "snippet": "GWP-total kg CO2-eq. 1.20E+01 | GWP-fossil 1.20E+01 | GWP-biogenic 7.97E-04 | GWP-luluc 5.76E-06 [Module C1]",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C2": {
+      "declared": true,
+      "gwpTotal": 14.5,
+      "gwpFossil": 14.5,
+      "gwpBiogenic": 0.000898,
+      "gwpLuluc": 0.00000686,
+      "unit": "kg CO2-eq.",
+      "provenance": {
+        "pageNumber": 18,
+        "snippet": "GWP-total kg CO2-eq. 1.45E+01 | GWP-fossil 1.45E+01 | GWP-biogenic 8.98E-04 | GWP-luluc 6.86E-06 [Module C2]",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C3": {
+      "declared": true,
+      "gwpTotal": 8.03,
+      "gwpFossil": 7.82,
+      "gwpBiogenic": 0.209,
+      "gwpLuluc": 0.00000363,
+      "unit": "kg CO2-eq.",
+      "provenance": {
+        "pageNumber": 18,
+        "snippet": "GWP-total kg CO2-eq. 8.03E+00 | GWP-fossil 7.82E+00 | GWP-biogenic 2.09E-01 | GWP-luluc 3.63E-06 [Module C3]",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C4": {
+      "declared": true,
+      "gwpTotal": 0.861,
+      "gwpFossil": 0.861,
+      "gwpBiogenic": 0.0000695,
+      "gwpLuluc": 4.18e-7,
+      "unit": "kg CO2-eq.",
+      "provenance": {
+        "pageNumber": 18,
+        "snippet": "GWP-total kg CO2-eq. 8.61E-01 | GWP-fossil 8.61E-01 | GWP-biogenic 6.95E-05 | GWP-luluc 4.18E-07 [Module C4]",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "D": {
+      "declared": true,
+      "gwpTotal": -9.79,
+      "gwpFossil": -9.77,
+      "gwpBiogenic": -0.0192,
+      "gwpLuluc": -0.00000151,
+      "unit": "kg CO2-eq.",
+      "provenance": {
+        "pageNumber": 18,
+        "snippet": "GWP-total kg CO2-eq. -9.79E+00 | GWP-fossil -9.77E+00 | GWP-biogenic -1.92E-02 | GWP-luluc -1.51E-06 [Module D]",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    }
+  },
+  "notes": [
+    "GWP-total for A1-A3 is 1.40E+02 = 140 kg CO2-eq. The GWP-fossil is also 1.40E+02; these are effectively equal due to rounding in the table.",
+    "Modules A4, A5, B1-B7 are marked ND (Not Declared) as construction and use stage scenarios cannot be defined for the range of premixed concrete applications.",
+    "The EPD covers a single product mix (AR2520, 25MPa) manufactured at Rockbank. No other mixes are declared in this document.",
+    "End-of-life default scenario assumes 84% recycling and 16% landfill based on National Waste Report 2022 (Victorian building & demolition materials). Additional 100% recycling and 100% landfill scenarios are provided in Table 13/14.",
+    "CO2-uptake (carbonation) has not been included at end-of-life due to high uncertainty.",
+    "GWP-biogenic in A1-A3 is negative (-2.40E-01 kg CO2-eq.) due to proxy admixture data showing negative GWP-biogenic values.",
+    "Strength class reported as '25MPa' (verbatim from product table); no standard compressive strength class notation (e.g. C25/30) is used in this EPD."
+  ]
+}

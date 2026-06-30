@@ -1,0 +1,210 @@
+{
+  "id": "EPD_HUB-5210_2026-06-27_en",
+  "sourceFile": "EPD_HUB-5210_2026-06-27_en.pdf",
+  "sourceFileHash": "2bfb1c6ca764e5b3ac5575d7bc42afb39e04ebaec5ff18df13c8c86a145b3ce1",
+  "extractedAt": "2026-06-30T03:20:19.874Z",
+  "extractor": {
+    "model": "claude-sonnet-4-6",
+    "schemaVersion": "1"
+  },
+  "manufacturer": {
+    "value": "Boral Limited",
+    "provenance": {
+      "pageNumber": 3,
+      "snippet": "Manufacturer | Boral Limited",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "productName": {
+    "value": "Envirocrete® 40% 32MPa",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "Envirocrete® 40% 32MPa\nMelbourne South-East",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "declarationNumber": {
+    "value": "HUB-5210",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "EPD HUB, HUB-5210\nPublished on 30.01.2026, last updated on 30.01.2026, valid until 29.01.2031",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "publishedDate": "2026-01-30",
+  "validUntil": "2031-01-29",
+  "standard": {
+    "name": "EN 15804+A2",
+    "pcr": "EN 16757",
+    "provenance": {
+      "pageNumber": 3,
+      "snippet": "Reference standard | EN 15804:2012+A2:2019/AC:2021 and ISO 14025\ncPCR | EN 16757 Product Category Rules for concrete and concrete elements",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "functionalUnit": {
+    "quantity": 1,
+    "unit": "m3",
+    "provenance": {
+      "pageNumber": 4,
+      "snippet": "Declared unit | 1 cubic metre",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "compressiveStrength": {
+    "valueMpa": 32,
+    "strengthClass": "32 MPa",
+    "testAgeDays": 28,
+    "provenance": {
+      "pageNumber": 4,
+      "snippet": "Compressive strength class:\n32 MPa\n\nStrength evaluation days:\n28 days",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "manufacturingLocation": {
+    "city": "Melbourne South-East",
+    "region": "Victoria",
+    "country": "Australia",
+    "provenance": {
+      "pageNumber": 3,
+      "snippet": "Place of production | Melbourne South-East",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "lifeCycle": {
+    "A1-A3": {
+      "declared": true,
+      "gwpTotal": 275,
+      "gwpFossil": 274,
+      "gwpBiogenic": 0.156,
+      "gwpLuluc": 0.0133,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 13,
+        "snippet": "GWP – total | kg CO2e | 2.55E+02 | 1.38E+01 | 5.97E+00 | 2.75E+02\nGWP – fossil | kg CO2e | 2.55E+02 | 1.38E+01 | 5.97E+00 | 2.74E+02",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A4": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "A5": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "B1": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "B2": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "B3": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "B4": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "B5": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "B6": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "B7": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "C1": {
+      "declared": true,
+      "gwpTotal": 4.23,
+      "gwpFossil": 4.23,
+      "gwpBiogenic": 0.000432,
+      "gwpLuluc": 0.000434,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 14,
+        "snippet": "GWP – total | kg CO2e | 4.23E+00 | 1.20E+01 | 6.82E+00 | 4.17E+00 | -1.22E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C2": {
+      "declared": true,
+      "gwpTotal": 12,
+      "gwpFossil": 12,
+      "gwpBiogenic": 0.00271,
+      "gwpLuluc": 0.00536,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 14,
+        "snippet": "GWP – total | kg CO2e | 4.23E+00 | 1.20E+01 | 6.82E+00 | 4.17E+00 | -1.22E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C3": {
+      "declared": true,
+      "gwpTotal": 6.82,
+      "gwpFossil": 6.82,
+      "gwpBiogenic": -0.000695,
+      "gwpLuluc": 0.000698,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 14,
+        "snippet": "GWP – total | kg CO2e | 4.23E+00 | 1.20E+01 | 6.82E+00 | 4.17E+00 | -1.22E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C4": {
+      "declared": true,
+      "gwpTotal": 4.17,
+      "gwpFossil": 4.17,
+      "gwpBiogenic": -0.00133,
+      "gwpLuluc": 0.00238,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 14,
+        "snippet": "GWP – total | kg CO2e | 4.23E+00 | 1.20E+01 | 6.82E+00 | 4.17E+00 | -1.22E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "D": {
+      "declared": true,
+      "gwpTotal": -12.2,
+      "gwpFossil": -12.1,
+      "gwpBiogenic": -0.038,
+      "gwpLuluc": -0.0168,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 14,
+        "snippet": "GWP – total | kg CO2e | 4.23E+00 | 1.20E+01 | 6.82E+00 | 4.17E+00 | -1.22E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    }
+  },
+  "notes": [
+    "Manufacturing location covers 7 sites in Melbourne South-East metropolitan region of Victoria: Cranbourne, Clayton, Dandenong, Healesville, Montrose, Nunawading, and Pakenham.",
+    "Scope is cradle-to-gate (A1-A3) with modules C1-4 and D; modules A4, A5, B1-B7 are not declared.",
+    "A1-A3 GWP values taken from combined A1-A3 column in LCA results table: GWP-total = 2.75E+02, GWP-fossil = 2.74E+02, GWP-biogenic = 1.56E-01, GWP-LULUC = 1.33E-02 kg CO2e.",
+    "GWP-total A1-A3 shown as 2.75E+02 = 275 kg CO2e per 1 cubic metre.",
+    "Product is Envirocrete® 40% (40% portland cement reduction). Other product ranges mentioned in document include ENVIROCRETE® 30%, ENVIROCRETE® PLUS, and ENVISIA® but are covered under separate EPDs."
+  ]
+}

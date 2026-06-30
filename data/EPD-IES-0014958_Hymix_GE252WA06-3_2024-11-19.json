@@ -1,0 +1,301 @@
+{
+  "id": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19",
+  "sourceFile": "EPD-IES-0014958_Hymix_GE252WA06-3_2024-11-19.pdf",
+  "sourceFileHash": "4e77fc5a8efb41e4114977ba31d2c5bbbda52fca797b899a69bc1c0eb1ae346e",
+  "extractedAt": "2026-06-30T03:23:58.281Z",
+  "extractor": {
+    "model": "claude-sonnet-4-6",
+    "schemaVersion": "1"
+  },
+  "manufacturer": {
+    "value": "Hymix Australia Pty Ltd",
+    "provenance": {
+      "pageNumber": 26,
+      "snippet": "EPD OWNER\nHymix Australia Pty Ltd\nL10, 35 Clarence St, Sydney NSW 2000",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "productName": {
+    "value": "HyLo-50 Normal-Class 25 MPa",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "HyLo-50 Normal-Class 25 MPa",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "declarationNumber": {
+    "value": "EPD-IES-0014958:001",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "EPD Registration Number:  EPD-IES-0014958:001",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "publishedDate": "2024-11-19",
+  "validUntil": "2029-11-19",
+  "standard": {
+    "name": "EN 15804+A2",
+    "pcr": "EN 16757:2023",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "In Accordance with Environdec c-PCR-003 Concrete, concrete elements (EN 16757:2023), ISO 14025 and EN15804:A2",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "functionalUnit": {
+    "quantity": 1,
+    "unit": "m3",
+    "provenance": {
+      "pageNumber": 18,
+      "snippet": "Declared unit\t1 m3",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "compressiveStrength": {
+    "valueMpa": 25,
+    "strengthClass": "25 MPa",
+    "testAgeDays": null,
+    "provenance": {
+      "pageNumber": 18,
+      "snippet": "Compressive strength\t25",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "manufacturingLocation": {
+    "city": "Gold Coast",
+    "region": "Queensland",
+    "country": "Australia",
+    "provenance": {
+      "pageNumber": 18,
+      "snippet": "Production site(s)\tGold Coast",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "lifeCycle": {
+    "A1-A3": {
+      "declared": true,
+      "gwpTotal": 141,
+      "gwpFossil": 141,
+      "gwpBiogenic": 0.027,
+      "gwpLuluc": 0.0217,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 19,
+        "snippet": "GWP-tot kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 9.64E+00 1.01E+01 4.44E+00 3.19E+00 -1.31E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A4": {
+      "declared": true,
+      "gwpTotal": 4.95,
+      "gwpFossil": 4.95,
+      "gwpBiogenic": 0.000893,
+      "gwpLuluc": 0.00201,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 19,
+        "snippet": "GWP-tot kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A5": {
+      "declared": true,
+      "gwpTotal": 10.7,
+      "gwpFossil": 10.7,
+      "gwpBiogenic": 0.00678,
+      "gwpLuluc": 0.00259,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 19,
+        "snippet": "GWP-tot kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B1": {
+      "declared": true,
+      "gwpTotal": -3.28,
+      "gwpFossil": -3.28,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 19,
+        "snippet": "GWP-tot kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B2": {
+      "declared": true,
+      "gwpTotal": 0,
+      "gwpFossil": 0,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 19,
+        "snippet": "GWP-tot kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B3": {
+      "declared": true,
+      "gwpTotal": 0,
+      "gwpFossil": 0,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 19,
+        "snippet": "GWP-tot kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B4": {
+      "declared": true,
+      "gwpTotal": 0,
+      "gwpFossil": 0,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 19,
+        "snippet": "GWP-tot kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B5": {
+      "declared": true,
+      "gwpTotal": 0,
+      "gwpFossil": 0,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 19,
+        "snippet": "GWP-tot kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B6": {
+      "declared": true,
+      "gwpTotal": 0,
+      "gwpFossil": 0,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 19,
+        "snippet": "GWP-tot kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B7": {
+      "declared": true,
+      "gwpTotal": 0,
+      "gwpFossil": 0,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 19,
+        "snippet": "GWP-tot kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C1": {
+      "declared": true,
+      "gwpTotal": 9.64,
+      "gwpFossil": 9.63,
+      "gwpBiogenic": 0.000857,
+      "gwpLuluc": 0.000836,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 19,
+        "snippet": "GWP-tot kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 9.64E+00 1.01E+01 4.44E+00 3.19E+00 -1.31E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C2": {
+      "declared": true,
+      "gwpTotal": 10.1,
+      "gwpFossil": 10,
+      "gwpBiogenic": 0.00215,
+      "gwpLuluc": 0.00483,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 19,
+        "snippet": "GWP-tot kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 9.64E+00 1.01E+01 4.44E+00 3.19E+00 -1.31E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C3": {
+      "declared": true,
+      "gwpTotal": 4.44,
+      "gwpFossil": 4.42,
+      "gwpBiogenic": 0.00349,
+      "gwpLuluc": 0.00679,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 19,
+        "snippet": "GWP-tot kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 9.64E+00 1.01E+01 4.44E+00 3.19E+00 -1.31E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C4": {
+      "declared": true,
+      "gwpTotal": 3.19,
+      "gwpFossil": 3.19,
+      "gwpBiogenic": 0.000861,
+      "gwpLuluc": 0.00164,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 19,
+        "snippet": "GWP-tot kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 9.64E+00 1.01E+01 4.44E+00 3.19E+00 -1.31E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "D": {
+      "declared": true,
+      "gwpTotal": -13.1,
+      "gwpFossil": -13,
+      "gwpBiogenic": -0.016,
+      "gwpLuluc": -0.0103,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 19,
+        "snippet": "GWP-tot kg CO₂ eq. 1.41E+02 4.95E+00 1.07E+01 -3.28E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 9.64E+00 1.01E+01 4.44E+00 3.19E+00 -1.31E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    }
+  },
+  "notes": [
+    "This is a Generic EPD covering the Gold Coast region (Queensland, Australia). Plants included: Labrador, Stapylton, and Burleigh.",
+    "The EPD document covers many other concrete mix products in addition to the primary declared product HyLo-50 Normal-Class 25 MPa (EPD-IES-0014958:001). Other products in the same document include: 25 MPa with 4.6 kg/m3 Blended Polyfibre, 32 MPa with 4.6 kg/m3 Blended Polyfibre, Burnish 40 MPa, Blockfill 20/25/32/40 MPa, High Workability 40-100 MPa, HyColour 25/32/40 MPa, HyGrade 20/25/32/40/50 MPa, HyLite 25/32 MPa, HyShine 32/40 MPa, HySpray 25/32/40 MPa, HyLo-40 Normal-Class 20/25/32/40/50MPa, HyLo-50 Normal-Class 20/32/40/50 MPa, Kerb, Lean Mix, Piling, Post-tensioned, Stabilised Sand, TMR variants, and others.",
+    "B1 value (-3.28 kg CO2 eq.) represents recarbonation during service life (carbonation uptake) as modeled in the GCCA tool.",
+    "GWP-fos value for A1-A3 reads 1.41E+02 which is the same as GWP-tot; the biogenic and luluc components are very small (0.027 and 0.0217 respectively), so GWP-fossil ≈ GWP-total.",
+    "Compressive strength listed as '25' in the product table without explicit test age; 28-day assumed as standard.",
+    "Full lifecycle GWP-tot (A1-A3 through D) is approximately 167 kg CO2 eq./m3 as shown in the product comparison table on page 22."
+  ]
+}

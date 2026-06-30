@@ -1,0 +1,231 @@
+{
+  "id": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd",
+  "sourceFile": "epd-ies-20602-001-holcim-vic-melbourne-metro-ecopact-ve322eamf-epd.pdf",
+  "sourceFileHash": "4bc3467295b23e5575ba613a275bb6b579ce037aa7defd18407e2fbf718b797c",
+  "extractedAt": "2026-06-30T03:36:14.366Z",
+  "extractor": {
+    "model": "claude-sonnet-4-6",
+    "schemaVersion": "1"
+  },
+  "manufacturer": {
+    "value": "Holcim (Australia) Pty Ltd",
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Evan Smith\nHolcim (Australia) Pty Ltd\nLevel 40, Northpoint Tower, 100 Miller St, North Sydney NSW 2060, Australia",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "productName": {
+    "value": "VIC - Melbourne Metro - ECOPact- VE322EAMF",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "VIC - Melbourne Metro - ECOPact- VE322EAMF",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "declarationNumber": {
+    "value": "EPD-IES-20602:001",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "EPD Registration No.: EPD-IES-20602:001",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "publishedDate": "2025-04-15",
+  "validUntil": "2030-04-15",
+  "standard": {
+    "name": "EN 15804:2012+A2:2019/AC:2021",
+    "pcr": "PCR 2019:14 Construction Products, Version 1.3.4, 2024-04-30; c-PCR-003 Concrete and Concrete Elements, 2024-04-30",
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "CEN standard EN 15804:2012+A2:2019/AC:2021 served as the core Product Category Rules (PCR)",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "functionalUnit": {
+    "quantity": 1,
+    "unit": "m3",
+    "provenance": {
+      "pageNumber": 6,
+      "snippet": "1 m3 of ready-mix concrete.",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "compressiveStrength": {
+    "valueMpa": 32,
+    "strengthClass": "32.0 MPa",
+    "testAgeDays": 56,
+    "provenance": {
+      "pageNumber": 10,
+      "snippet": "Strength (MPa) Mix Code Mix Description\n32.0 VE322EAMF S32@56D 20mm 120SL ECOPactMAX FIB CONC",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "manufacturingLocation": {
+    "city": "Melbourne",
+    "region": "Victoria",
+    "country": "Australia",
+    "provenance": {
+      "pageNumber": 10,
+      "snippet": "Production Sites: Laverton, Truganina, Footscray, Epping, Keilor, Preston, Oaklands Junction, Melbourne Airport, Bayswater, Springvale, Lyndhurst, Seaford, Pakenham, Hastings, Rosebud",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "lifeCycle": {
+    "A1-A3": {
+      "declared": true,
+      "gwpTotal": 105,
+      "gwpFossil": 104,
+      "gwpBiogenic": 0.781,
+      "gwpLuluc": 0.0184,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 15,
+        "snippet": "GWP-Total kg CO2 eq. 105 2.05 8.81 0.532 3.99 7.61 1.28 -15.7\nGWP-Fossil kg CO2 eq. 104 2.05 8.79\nGWP-Biogenic kg CO2 eq. 0.781\nGWP-Luluc kg CO2 eq. 0.0184",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A4": {
+      "declared": true,
+      "gwpTotal": 2.05,
+      "gwpFossil": 2.05,
+      "gwpBiogenic": 0.000153,
+      "gwpLuluc": 9.54e-7,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 15,
+        "snippet": "GWP-Total kg CO2 eq. 105 2.05 8.81 0.532 3.99 7.61 1.28 -15.7\nGWP-Fossil kg CO2 eq. 104 2.05 8.79",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A5": {
+      "declared": true,
+      "gwpTotal": 8.81,
+      "gwpFossil": 8.79,
+      "gwpBiogenic": 0.024,
+      "gwpLuluc": 0.000263,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 15,
+        "snippet": "GWP-Total kg CO2 eq. 105 2.05 8.81 0.532 3.99 7.61 1.28 -15.7\nGWP-Fossil kg CO2 eq. 104 2.05 8.79",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B1": {
+      "declared": false,
+      "reason": "ND - Material emissions from usage (B1) deemed not applicable for Holcim's ready-mix concrete ranges"
+    },
+    "B2": {
+      "declared": false,
+      "reason": "ND - Maintenance (B2) deemed not applicable for Holcim's ready-mix concrete ranges"
+    },
+    "B3": {
+      "declared": false,
+      "reason": "ND - Repair (B3) deemed not applicable for Holcim's ready-mix concrete ranges"
+    },
+    "B4": {
+      "declared": false,
+      "reason": "ND - Replacement (B4) deemed not applicable for Holcim's ready-mix concrete ranges"
+    },
+    "B5": {
+      "declared": false,
+      "reason": "ND - Refurbishment (B5) deemed not applicable for Holcim's ready-mix concrete ranges"
+    },
+    "B6": {
+      "declared": false,
+      "reason": "ND - Operational energy use (B6) deemed not applicable for Holcim's ready-mix concrete ranges"
+    },
+    "B7": {
+      "declared": false,
+      "reason": "ND - Operational water use (B7) deemed not applicable for Holcim's ready-mix concrete ranges"
+    },
+    "C1": {
+      "declared": true,
+      "gwpTotal": 0.532,
+      "gwpFossil": 0.532,
+      "gwpBiogenic": 0.0000409,
+      "gwpLuluc": 0.0000227,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 15,
+        "snippet": "GWP-Total kg CO2 eq. 105 2.05 8.81 0.532 3.99 7.61 1.28 -15.7\nGWP-Fossil kg CO2 eq. 104 2.05 8.79 0.532",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C2": {
+      "declared": true,
+      "gwpTotal": 3.99,
+      "gwpFossil": 3.99,
+      "gwpBiogenic": 0.000299,
+      "gwpLuluc": 0.00000186,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 15,
+        "snippet": "GWP-Total kg CO2 eq. 105 2.05 8.81 0.532 3.99 7.61 1.28 -15.7",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C3": {
+      "declared": true,
+      "gwpTotal": 7.61,
+      "gwpFossil": 7.6,
+      "gwpBiogenic": 0.00704,
+      "gwpLuluc": 0.0000035,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 15,
+        "snippet": "GWP-Total kg CO2 eq. 105 2.05 8.81 0.532 3.99 7.61 1.28 -15.7\nGWP-Fossil kg CO2 eq. 104 2.05 8.79 0.532 3.99 7.60",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C4": {
+      "declared": true,
+      "gwpTotal": 1.28,
+      "gwpFossil": 1.28,
+      "gwpBiogenic": 0.00023,
+      "gwpLuluc": 0.0000626,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 15,
+        "snippet": "GWP-Total kg CO2 eq. 105 2.05 8.81 0.532 3.99 7.61 1.28 -15.7\nGWP-Fossil kg CO2 eq. 104 2.05 8.79 0.532 3.99 7.60 1.28",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "D": {
+      "declared": true,
+      "gwpTotal": -15.7,
+      "gwpFossil": -15.7,
+      "gwpBiogenic": -0.0216,
+      "gwpLuluc": -0.0139,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 15,
+        "snippet": "GWP-Total kg CO2 eq. 105 2.05 8.81 0.532 3.99 7.61 1.28 -15.7\nGWP-Fossil kg CO2 eq. 104 2.05 8.79 0.532 3.99 7.60 1.28 -15.7",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    }
+  },
+  "notes": [
+    "This EPD covers a single concrete mix: VE322EAMF (S32@56D 20mm 120SL ECOPactMAX FIB CONC), 32 MPa at 56 days.",
+    "Production sites are multiple locations across Melbourne metro Victoria: Laverton, Truganina, Footscray, Epping, Keilor, Preston, Oaklands Junction, Melbourne Airport, Bayswater, Springvale, Lyndhurst, Seaford, Pakenham, Hastings, Rosebud.",
+    "Compressive strength is tested at 56 days (S32@56D), not the standard 28 days.",
+    "B1-B7 stages are all declared as Not Declared (ND) as they are deemed not applicable for ready-mix concrete.",
+    "GWP-Luluc for A4 is 9.54E-7 kg CO2 eq., a very small value near zero.",
+    "CO2 absorption (carbonation) during the use stage has not been included in this EPD."
+  ]
+}

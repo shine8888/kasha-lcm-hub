@@ -1,0 +1,213 @@
+{
+  "id": "epd-ies-0023043-s32mpa-greencrete-70",
+  "sourceFile": "epd-ies-0023043-s32mpa-greencrete-70.pdf",
+  "sourceFileHash": "8b40acc2e886d018dfbdfd034ecbe83cd95571b443ce8fec3d7c78f464311bbd",
+  "extractedAt": "2026-06-30T03:35:35.008Z",
+  "extractor": {
+    "model": "claude-sonnet-4-6",
+    "schemaVersion": "1"
+  },
+  "manufacturer": {
+    "value": "Piave Premix Concrete Pty Ltd",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "PREMIX CONCRETE – S32MPA GREENCRETE 70\nPiave Premix Concrete Pty Ltd",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "productName": {
+    "value": "Premix Concrete – S32MPa GreenCrete 70",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "PREMIX CONCRETE – S32MPA GREENCRETE 70",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "declarationNumber": {
+    "value": "EPD-IES-23043",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "EPD registration number: EPD-IES-23043",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "publishedDate": "2025-03-31",
+  "validUntil": "2030-03-31",
+  "standard": {
+    "name": "EN 15804:2012+A2:2019/AC:2021",
+    "pcr": "PCR 2019:14 Construction Products, Version 1.3.4; C-PCR-003 Concrete and concrete elements, version 2024-04-30",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "IN ACCORDANCE WITH ISO 14025:2006, \nEN 15804:2012+A2:2019/AC:2021",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "functionalUnit": {
+    "quantity": 1,
+    "unit": "m3",
+    "provenance": {
+      "pageNumber": 8,
+      "snippet": "Declared unit\t1m3 of Premix Concrete supplied to the client",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "compressiveStrength": {
+    "valueMpa": 32,
+    "strengthClass": "S32MPa",
+    "testAgeDays": null,
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "PREMIX CONCRETE – S32MPA GREENCRETE 70",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "manufacturingLocation": {
+    "plant": "262 Salmon Street Port Melbourne VIC 3207",
+    "city": "Port Melbourne",
+    "region": "Victoria",
+    "country": "Australia",
+    "provenance": {
+      "pageNumber": 3,
+      "snippet": "Production Site:\t262 Salmon Street Port Melbourne VIC 3207",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "lifeCycle": {
+    "A1-A3": {
+      "declared": true,
+      "gwpTotal": 134,
+      "gwpFossil": 134,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0.0228,
+      "unit": "kg CO2 eq",
+      "provenance": {
+        "pageNumber": 11,
+        "snippet": "GWP – total1) kg CO2 eq 1.34E+02 5.67E+00 2.16E+01 1.25E+01 2.29E+00 ‐1.61E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A4": {
+      "declared": false,
+      "reason": "ND - Modules not declared"
+    },
+    "A5": {
+      "declared": false,
+      "reason": "ND - Modules not declared"
+    },
+    "B1": {
+      "declared": false,
+      "reason": "ND - Modules not declared"
+    },
+    "B2": {
+      "declared": false,
+      "reason": "ND - Modules not declared"
+    },
+    "B3": {
+      "declared": false,
+      "reason": "ND - Modules not declared"
+    },
+    "B4": {
+      "declared": false,
+      "reason": "ND - Modules not declared"
+    },
+    "B5": {
+      "declared": false,
+      "reason": "ND - Modules not declared"
+    },
+    "B6": {
+      "declared": false,
+      "reason": "ND - Modules not declared"
+    },
+    "B7": {
+      "declared": false,
+      "reason": "ND - Modules not declared"
+    },
+    "C1": {
+      "declared": true,
+      "gwpTotal": 5.67,
+      "gwpFossil": 5.67,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0.000565,
+      "unit": "kg CO2 eq",
+      "provenance": {
+        "pageNumber": 11,
+        "snippet": "GWP – total1) kg CO2 eq 1.34E+02 5.67E+00 2.16E+01 1.25E+01 2.29E+00 ‐1.61E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C2": {
+      "declared": true,
+      "gwpTotal": 21.6,
+      "gwpFossil": 21.6,
+      "gwpBiogenic": 4.34e-19,
+      "gwpLuluc": 0.00769,
+      "unit": "kg CO2 eq",
+      "provenance": {
+        "pageNumber": 11,
+        "snippet": "GWP – total1) kg CO2 eq 1.34E+02 5.67E+00 2.16E+01 1.25E+01 2.29E+00 ‐1.61E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C3": {
+      "declared": true,
+      "gwpTotal": 12.5,
+      "gwpFossil": 12.5,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0.00128,
+      "unit": "kg CO2 eq",
+      "provenance": {
+        "pageNumber": 11,
+        "snippet": "GWP – total1) kg CO2 eq 1.34E+02 5.67E+00 2.16E+01 1.25E+01 2.29E+00 ‐1.61E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C4": {
+      "declared": true,
+      "gwpTotal": 2.29,
+      "gwpFossil": 2.29,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0.00131,
+      "unit": "kg CO2 eq",
+      "provenance": {
+        "pageNumber": 11,
+        "snippet": "GWP – total1) kg CO2 eq 1.34E+02 5.67E+00 2.16E+01 1.25E+01 2.29E+00 ‐1.61E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "D": {
+      "declared": true,
+      "gwpTotal": -1.61,
+      "gwpFossil": -1.61,
+      "gwpBiogenic": 0,
+      "gwpLuluc": -0.000172,
+      "unit": "kg CO2 eq",
+      "provenance": {
+        "pageNumber": 11,
+        "snippet": "GWP – total1) kg CO2 eq 1.34E+02 5.67E+00 2.16E+01 1.25E+01 2.29E+00 ‐1.61E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    }
+  },
+  "notes": [
+    "This is a single-product EPD covering only S32MPa GreenCrete 70. No other mixes are declared in this document.",
+    "System boundary is A1-A3 + C1-C4 + D. Modules A4, A5, B1-B7 are declared as 'ND' (Modules not declared).",
+    "GWP-biogenic for A1-A3 is 0.00E+00 (product contains no biogenic carbon and is delivered in bulk without packaging).",
+    "GWP-LULUC values extracted: A1-A3=2.28E-02, C1=5.65E-04, C2=7.69E-03, C3=1.28E-03, C4=1.31E-03, D=-1.72E-04 kg CO2 eq.",
+    "Manufacturing location: Port Melbourne, Victoria, Australia (single plant).",
+    "The EPD geographical scope is Victoria, Australia.",
+    "Compressive strength class is stated as S32MPa in the product name; no separate test age (days) is explicitly specified."
+  ]
+}

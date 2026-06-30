@@ -1,0 +1,178 @@
+{
+  "id": "epd-ies-0021165-sn252f100",
+  "sourceFile": "epd-ies-0021165-sn252f100.pdf",
+  "sourceFileHash": "fdd8788e42b5fc0f8eb018f88bb9fd03263be518272906a589d660f71e29ab91",
+  "extractedAt": "2026-06-30T03:33:56.675Z",
+  "extractor": {
+    "model": "claude-sonnet-4-6",
+    "schemaVersion": "1"
+  },
+  "manufacturer": {
+    "value": "Adbri Limited",
+    "provenance": {
+      "pageNumber": 11,
+      "snippet": "Owner of the EPD: Adbri Limited, Level 4, 151 Pirie Street Adelaide SA 5000",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "productName": {
+    "value": "Adbri Concrete EPD—SN252F100",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "Adbri Concrete EPD—SN252F100 South Australia",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "declarationNumber": {
+    "value": "EPD-IES-0021165",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "EPD registration number: EPD-IES-0021165",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "publishedDate": "2025-03-13",
+  "validUntil": "2030-03-13",
+  "standard": {
+    "name": "EN 15804+A2:2019",
+    "pcr": "PCR 2019:14 Construction Products, Version 1.3.4; C-PCR-003 Concrete and Concrete Elements (EN 16757)",
+    "provenance": {
+      "pageNumber": 9,
+      "snippet": "CEN standard: EN 15804 +A2:2019 serves as the core PCR; Complementary Product Category Rules (C-PCR) 003 to PCR 2019:14 Concrete and concrete elements (EN 16757)",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "functionalUnit": {
+    "quantity": 1,
+    "unit": "m3",
+    "provenance": {
+      "pageNumber": 17,
+      "snippet": "The declared unit adopted is one cubic metre (1m3) of manufactured concrete.",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "compressiveStrength": {
+    "valueMpa": 25,
+    "strengthClass": "GL Slag 25 MPa",
+    "testAgeDays": null,
+    "provenance": {
+      "pageNumber": 32,
+      "snippet": "Futurecrete Normal Class GL Slag 25 MPa, Mix code SN252F100",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "manufacturingLocation": {
+    "city": "Adelaide",
+    "region": "South Australia",
+    "country": "Australia",
+    "provenance": {
+      "pageNumber": 11,
+      "snippet": "This EPD report presents the methodology, data, results, and interpretation for concrete produced in South Australia.",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "lifeCycle": {
+    "A1-A3": {
+      "declared": true,
+      "gwpTotal": 143.73,
+      "gwpFossil": 143.73,
+      "gwpBiogenic": 0.113,
+      "gwpLuluc": 0.0177,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 32,
+        "snippet": "GWP-fossil: 143.73, GWP-biogenic: 1.13E-01, GWP-luluc: 1.77E-02, GWP-total: 143.83 — SN252F100 Futurecrete Normal Class GL Slag 25 MPa",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A4": {
+      "declared": true,
+      "gwpTotal": 9.64,
+      "gwpFossil": 9.64,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0.0000165,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 34,
+        "snippet": "GWPfossil: 9.64, GWP-biogenic: 0.00, GWP-luluc: 1.65E-05, GWP-total: 9.64 — Concrete produced at South Australia",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A5": {
+      "declared": true,
+      "gwpTotal": 0,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 18,
+        "snippet": "Modules declared: A5 X; the table shows A5 is included but specific LCA result values for A5 are not separately tabulated in the environmental performance tables",
+        "confidence": "low",
+        "method": "vision-llm"
+      }
+    },
+    "B1": {
+      "declared": false,
+      "reason": "ND = Not Declared"
+    },
+    "B2": {
+      "declared": false,
+      "reason": "ND = Not Declared"
+    },
+    "B3": {
+      "declared": false,
+      "reason": "ND = Not Declared"
+    },
+    "B4": {
+      "declared": false,
+      "reason": "ND = Not Declared"
+    },
+    "B5": {
+      "declared": false,
+      "reason": "ND = Not Declared"
+    },
+    "B6": {
+      "declared": false,
+      "reason": "ND = Not Declared"
+    },
+    "B7": {
+      "declared": false,
+      "reason": "ND = Not Declared"
+    },
+    "C1": {
+      "declared": false,
+      "reason": "C1-C4 and D are included in scope but no separate GWP results table found for these modules for mix SN252F100 in the document"
+    },
+    "C2": {
+      "declared": false,
+      "reason": "C1-C4 and D are included in scope but no separate GWP results table found for these modules for mix SN252F100 in the document"
+    },
+    "C3": {
+      "declared": false,
+      "reason": "C1-C4 and D are included in scope but no separate GWP results table found for these modules for mix SN252F100 in the document"
+    },
+    "C4": {
+      "declared": false,
+      "reason": "C1-C4 and D are included in scope but no separate GWP results table found for these modules for mix SN252F100 in the document"
+    },
+    "D": {
+      "declared": false,
+      "reason": "D is included in scope but no separate GWP results table found for module D for mix SN252F100 in the document"
+    }
+  },
+  "notes": [
+    "This EPD covers only one mix: SN252F100 (Futurecrete Normal Class GL Slag 25 MPa). The EPD document describes that Adbri produces a range of concrete mixes in South Australia grouped by strength (20, 25, 32, 40, 50 MPa) and blend (GP cement, GL cement, fly ash, slag, ternary), but only SN252F100 appears in the published results tables.",
+    "The A1-A3 GWP-total value in Table 8 reads 143.83 kg CO2 eq., while the individual components sum to: GWP-fossil (143.73) + GWP-biogenic (0.113) + GWP-luluc (0.0177) = 143.86 — the table value of 143.83 is used as authoritative for gwpTotal.",
+    "Modules A5, C1-C4 and D are declared as 'X' (included) in Table 3, but no separate detailed GWP results table for these modules was found for mix SN252F100 in the document. Only A1-A3 and A4 tables with specific product data were visible.",
+    "The A4 GWP result (9.64 kg CO2 eq.) is provided for 'Concrete produced at South Australia' as a generic transport result, not specific to SN252F100 mix code.",
+    "Manufacturing sites in South Australia include: Burton, Dry Creek, Gawler, Gillman, Littlehampton, Lonsdale, Murray Bridge, Sellicks, Victor Harbor, Welland — results represent an average across these sites.",
+    "Foreground data is for FY2020-2021 (September 2020 to September 2021)."
+  ]
+}

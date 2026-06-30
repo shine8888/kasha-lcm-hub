@@ -1,0 +1,231 @@
+{
+  "id": "EPD_HUB-5527_2026-06-27_en",
+  "sourceFile": "EPD_HUB-5527_2026-06-27_en.pdf",
+  "sourceFileHash": "24be70ad2f4c75f3aec9ddecdc9b8db9ab1af3f4b00b368268dcce0684620c73",
+  "extractedAt": "2026-06-30T03:26:29.266Z",
+  "extractor": {
+    "model": "claude-sonnet-4-6",
+    "schemaVersion": "1"
+  },
+  "manufacturer": {
+    "value": "Tandy Concrete",
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Manufacturer Tandy Concrete",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "productName": {
+    "value": "CTILTS4020100Enhanced",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "CTILTS4020100Enhanced\nTandy Concrete",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "declarationNumber": {
+    "value": "HUB-5527",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "EPD HUB, HUB-5527\nPublished on 25.02.2026, last updated on 25.02.2026, valid until 24.02.2031",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "publishedDate": "2026-02-25",
+  "validUntil": "2031-02-24",
+  "standard": {
+    "name": "EN 15804:2012+A2:2019/AC:2021 and ISO 14025",
+    "pcr": "EPD Hub Core PCR version 1.2, 24 Mar 2025; cPCR: EN 16757 Product Category Rules for concrete and concrete elements",
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Reference standard EN 15804:2012+A2:2019/AC:2021\nand ISO 14025\nPCR EPD Hub Core PCR version 1.2, 24 Mar 2025\ncPCR EN 16757 Product Category Rules for concrete and concrete elements",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "functionalUnit": {
+    "quantity": 1,
+    "unit": "m3",
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Declared unit 1 cubic meter",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "compressiveStrength": {
+    "valueMpa": 40,
+    "strengthClass": "S40",
+    "testAgeDays": 28,
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Compressive strength class:\nS40\nStrength evaluation days:\n28 days",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "manufacturingLocation": {
+    "plant": "11 McIntosh Drive, Airlie Beach",
+    "city": "Airlie Beach",
+    "country": "Australia",
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Place of production 11 McIntosh Drive, Airlie Beach, Australia",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "lifeCycle": {
+    "A1-A3": {
+      "declared": true,
+      "gwpTotal": 284,
+      "gwpFossil": 284,
+      "gwpBiogenic": -0.0281,
+      "gwpLuluc": 0.0333,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 9,
+        "snippet": "GWP – total1) kg CO2e 2,54E+02 2,63E+01 4,07E+00 2,84E+02\nGWP – fossil kg CO2e 2,54E+02 2,63E+01 4,07E+00 2,84E+02\nGWP – biogenic kg CO2e -3,88E-02 1,02E-02 4,74E-04 -2,81E-02\nGWP – LULUC kg CO2e 1,57E-02 1,73E-02 3,53E-04 3,33E-02",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A4": {
+      "declared": true,
+      "gwpTotal": 2.19,
+      "gwpFossil": 2.18,
+      "gwpBiogenic": 0.000495,
+      "gwpLuluc": 0.000977,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 9,
+        "snippet": "GWP – total1) kg CO2e ... 2,19E+00 ...\nGWP – fossil kg CO2e ... 2,18E+00 ...\nGWP – biogenic kg CO2e ... 4,95E-04 ...\nGWP – LULUC kg CO2e ... 9,77E-04 ...",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A5": {
+      "declared": true,
+      "gwpTotal": 16.7,
+      "gwpFossil": 16.7,
+      "gwpBiogenic": -0.0000533,
+      "gwpLuluc": 0.00206,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 9,
+        "snippet": "GWP – total1) kg CO2e ... 1,67E+01 ND\nGWP – fossil kg CO2e ... 1,67E+01 ND\nGWP – biogenic kg CO2e ... -5,33E-05 ND\nGWP – LULUC kg CO2e ... 2,06E-03 ND",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B1": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "B2": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "B3": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "B4": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "B5": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "B6": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "B7": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "C1": {
+      "declared": true,
+      "gwpTotal": 4.54,
+      "gwpFossil": 4.54,
+      "gwpBiogenic": 0.000464,
+      "gwpLuluc": 0.000465,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 9,
+        "snippet": "GWP – total1) kg CO2e ... 4,54E+00 1,29E+01 7,31E+00 4,47E+00 -1,34E+01\nGWP – fossil kg CO2e ... 4,54E+00 1,29E+01 7,31E+00 4,47E+00 -1,34E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C2": {
+      "declared": true,
+      "gwpTotal": 12.9,
+      "gwpFossil": 12.9,
+      "gwpBiogenic": 0.00291,
+      "gwpLuluc": 0.00575,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 9,
+        "snippet": "GWP – total1) kg CO2e ... 1,29E+01 7,31E+00 4,47E+00 -1,34E+01\nGWP – biogenic kg CO2e ... 2,91E-03 -7,46E-04 -1,42E-03 -4,20E-02",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C3": {
+      "declared": true,
+      "gwpTotal": 7.31,
+      "gwpFossil": 7.31,
+      "gwpBiogenic": -0.000746,
+      "gwpLuluc": 0.000749,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 9,
+        "snippet": "GWP – total1) kg CO2e ... 7,31E+00 4,47E+00 -1,34E+01\nGWP – biogenic kg CO2e ... -7,46E-04 -1,42E-03 -4,20E-02",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C4": {
+      "declared": true,
+      "gwpTotal": 4.47,
+      "gwpFossil": 4.47,
+      "gwpBiogenic": -0.00142,
+      "gwpLuluc": 0.00256,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 9,
+        "snippet": "GWP – total1) kg CO2e ... 4,47E+00 -1,34E+01\nGWP – biogenic kg CO2e ... -1,42E-03 -4,20E-02",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "D": {
+      "declared": true,
+      "gwpTotal": -13.4,
+      "gwpFossil": -13.4,
+      "gwpBiogenic": -0.042,
+      "gwpLuluc": -0.0185,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 9,
+        "snippet": "GWP – total1) kg CO2e ... -1,34E+01\nGWP – fossil kg CO2e ... -1,34E+01\nGWP – biogenic kg CO2e ... -4,20E-02\nGWP – LULUC kg CO2e ... -1,85E-02",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    }
+  },
+  "notes": [
+    "Compressive strength class listed as 'S40' in the EPD; interpreted as 40 MPa based on product description ('Tandy 40MPa Tilt up concrete').",
+    "The EPD covers a single product mix: CTILTS4020100Enhanced (40 MPa Tilt Up Panels ready-mix concrete).",
+    "GWP-biogenic A1-A3 is -2.81E-02 kg CO2e (negative, indicating net biogenic carbon uptake).",
+    "B1-B7 are all declared as ND (Not Declared) per the system boundary table on page 5.",
+    "A1-A3 combined row is directly available in the LCA results table; individual A1, A2, A3 values are also provided separately.",
+    "Manufacturing location is Airlie Beach, Australia. The company also operates plants in Mackay, Marian, Rockhampton, and Yeppoon but this EPD is product and factory specific (Airlie Beach)."
+  ]
+}

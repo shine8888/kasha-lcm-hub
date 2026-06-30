@@ -1,36 +1,145 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Low Carbon Materials Hub
 
-## Getting Started
+> A small public website that lets a non-expert builder compare concrete products by their embodied
+> carbon — across the full EN 15804 life cycle, not just one headline number. Every figure on the
+> screen traces back to the page of the EPD PDF it came from.
 
-First, run the development server:
+Built for the **Full Stack Lead take-home assessment** (Low Carbon Materials Hub).
+
+- **Live**: _add Vercel URL after `vercel deploy`_
+- **Extraction reasoning**: [`EXTRACTION.md`](./EXTRACTION.md)
+- **Data**: [`/data/*.json`](./data) — one JSON per source EPD
+- **Sources**: [`/public/sources/*.pdf`](./public/sources) — the original PDFs, served at runtime so provenance links work
+
+---
+
+## What I built and why
+
+**Stack**: Next.js 16 (App Router, RSC), TypeScript, Tailwind 4, Zod, Anthropic SDK.
+
+**Shape**: One Next.js app, two surfaces:
+
+1. **An offline extraction pipeline** (`npm run extract`) that reads each PDF, sends it to Claude
+   Sonnet 4.6 with a strict JSON schema, validates the result with Zod, and writes one JSON file
+   per EPD into [`/data`](./data). Provenance — `{ pageNumber, snippet, confidence, method }` —
+   is enforced as a required field of the schema, not bolted on.
+2. **A read-only Next.js app** that loads those JSON files at build time (server components), and
+   renders a product list, a detail page per product, and a side-by-side compare view. Every
+   number on screen carries a `p.N` link that opens the source PDF at the cited page.
+
+### A few decisions worth flagging
+
+- **Static JSON, no database.** The dataset is 20 records that change when extraction is rerun,
+  not when users click around. A database would add operational complexity for no read benefit.
+- **Stage-level discriminated union.** A life-cycle module is either `{ declared: true, gwpTotal, … }`
+  or `{ declared: false, reason? }`. There is no third state where the UI silently substitutes 0.
+  This is the contract that makes "not declared ≠ zero" structural rather than aspirational.
+- **Functional-unit honesty.** Comparing 1 m³ to 1 tonne of concrete is misleading. The compare
+  page detects the mismatch and renders a banner saying so — it does **not** convert silently.
+- **Per-field provenance, not per-document.** Each value points to its own page + verbatim
+  snippet. A user can click any cell and verify the number, even when an EPD lists two values
+  for the same indicator (gross vs net, multiple mixes).
+- **Server forms, URL state.** Filters and selection are plain HTML `<form method="get">`. No
+  client-side state, no hydration cost, every view is bookmarkable and shareable.
+
+I did **not** mirror the in-house NestJS microservice pattern (`lr-be-framework` / `simple-invoice`
+/ `assessment-reservation`). The brief is explicit: Next.js + Node.js + TypeScript, deployed to
+Vercel, ~4 focused hours. Spinning up RabbitMQ + Postgres + a 5-service compose stack would have
+been the wrong signal to send for this brief. Reasoning trail in `EXTRACTION.md`.
+
+---
+
+## Running it locally
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone … && cd lcm-hub
+npm install
+npm run dev              # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The repo ships with the extracted JSON files in [`/data`](./data) — the app works out of the box.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Re-running extraction
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+You only need this if you want to verify the pipeline against a new PDF set:
 
-## Learn More
+```bash
+# 1. Drop the source EPD PDFs in ~/Downloads/epds (override with --src)
+# 2. Set your key:
+export ANTHROPIC_API_KEY=sk-ant-...
+# 3. Run:
+npm run extract
+# Options:
+#   --src <dir>          Source dir (default ~/Downloads/epds)
+#   --only <substring>   Only process matching PDFs
+#   --force              Re-extract files that already have JSON
+```
 
-To learn more about Next.js, take a look at the following resources:
+Each PDF takes 10–30 seconds. The runner writes:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `data/<id>.json` — validated against `src/lib/schema.ts`
+- `public/sources/<id>.pdf` — a copy that Vercel serves so provenance links resolve
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+If extraction fails for a PDF, the runner logs the schema-validation issues for that file and
+continues with the rest. Failed files are summarised at the end.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Project layout
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+lcm-hub/
+├── data/                    # /data/<id>.json — extracted, schema-validated EPD records
+├── public/sources/          # /sources/<id>.pdf — copies of the originals, served by Vercel
+├── scripts/extract/
+│   ├── run.ts               # the extraction runner
+│   └── prompt.ts            # the system prompt with hard rules: provenance required, no fabricating
+├── src/
+│   ├── app/
+│   │   ├── page.tsx         # list page with filters + multi-select
+│   │   ├── products/[id]/   # detail page
+│   │   ├── compare/         # side-by-side compare
+│   │   ├── about/           # data scope + honesty rule
+│   │   ├── layout.tsx
+│   │   └── not-found.tsx
+│   ├── components/
+│   │   ├── Filters.tsx
+│   │   └── Provenance.tsx   # ProvenanceLink + NotDeclared badge
+│   └── lib/
+│       ├── schema.ts        # Zod schema = contract between Part 1 and Part 2
+│       └── data.ts          # server-only loader: reads + validates /data/*.json
+├── EXTRACTION.md            # Part-1 reasoning (model choice, accuracy methodology, caveats)
+└── README.md                # you are here
+```
+
+---
+
+## What's out of scope (and why)
+
+- **Auth / write paths.** Data is read-only. No user-supplied numbers means no values without
+  provenance.
+- **Cross-unit normalization.** When an EPD reports per tonne and another per m³, the compare page
+  warns rather than converts. Silent conversion hides the assumption.
+- **Non-GWP indicators** (acidification, eutrophication, ozone, etc.). The brief is about embodied
+  carbon — adding eight more indicator columns would dilute the comparison.
+- **Tests.** With a 4-hour budget I prioritised schema + UI honesty over a test harness. The Zod
+  schema is itself a runtime test that fails loudly on malformed input.
+
+---
+
+## Deployment
+
+```bash
+npx vercel deploy --prod
+```
+
+The app has no environment variables in production — `ANTHROPIC_API_KEY` is only needed for the
+extraction script, which runs locally and commits its output to the repo. Vercel just serves the
+JSON + PDFs + Next bundle.
+
+---
+
+## License
+
+Submitted as an assessment artifact. The extracted JSON references publicly-published EPDs —
+copyright in the original PDFs remains with the issuing manufacturers.

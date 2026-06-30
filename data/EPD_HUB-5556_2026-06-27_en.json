@@ -1,0 +1,209 @@
+{
+  "id": "EPD_HUB-5556_2026-06-27_en",
+  "sourceFile": "EPD_HUB-5556_2026-06-27_en.pdf",
+  "sourceFileHash": "b9767f3757545b70d8e7e3b5d5f41dc55d580de3d372f38931d2a7eaf1ebb707",
+  "extractedAt": "2026-06-30T03:27:57.170Z",
+  "extractor": {
+    "model": "claude-sonnet-4-6",
+    "schemaVersion": "1"
+  },
+  "manufacturer": {
+    "value": "Boral Limited",
+    "provenance": {
+      "pageNumber": 3,
+      "snippet": "Manufacturer Boral Limited",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "productName": {
+    "value": "50MPa 20mm Enviro 50% SCM 100SL Conc",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "50MPa 20mm Enviro 50% SCM 100SL Conc",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "declarationNumber": {
+    "value": "HUB-5556",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "EPD HUB, HUB-5556",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "publishedDate": "2026-02-27",
+  "validUntil": "2031-02-26",
+  "standard": {
+    "name": "EN 15804+A2",
+    "pcr": "EN 16757",
+    "provenance": {
+      "pageNumber": 3,
+      "snippet": "Reference standard EN 15804:2012+A2:2019/AC:2021 and ISO 14025\ncPCR EN 16757 Product Category Rules for concrete and concrete elements",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "functionalUnit": {
+    "quantity": 1,
+    "unit": "m3",
+    "provenance": {
+      "pageNumber": 4,
+      "snippet": "Declared unit 1 cubic metre",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "compressiveStrength": {
+    "valueMpa": 50,
+    "strengthClass": "S50",
+    "testAgeDays": 28,
+    "provenance": {
+      "pageNumber": 4,
+      "snippet": "Compressive strength class:\nS50\nStrength evaluation days:\n28 days",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "manufacturingLocation": {
+    "city": "Melbourne",
+    "country": "Australia",
+    "provenance": {
+      "pageNumber": 3,
+      "snippet": "Place of production Melbourne",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "lifeCycle": {
+    "A1-A3": {
+      "declared": true,
+      "gwpTotal": 268,
+      "gwpFossil": 268,
+      "gwpBiogenic": 0.108,
+      "gwpLuluc": 0.0918,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 13,
+        "snippet": "GWP – total1 kg CO2e 2.56E+02 6.58E+00 5.62E+00 2.68E+02\nGWP – fossil kg CO2e 2.56E+02 6.57E+00 5.62E+00 2.68E+02\nGWP – biogenic kg CO2e 9.46E-02 1.23E-02 7.60E-04 1.08E-01\nGWP – LULUC kg CO2e 9.12E-02 5.06E-05 4.66E-04 9.18E-02",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A4": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "A5": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "B1": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "B2": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "B3": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "B4": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "B5": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "B6": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "B7": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "C1": {
+      "declared": true,
+      "gwpTotal": 4.52,
+      "gwpFossil": 4.52,
+      "gwpBiogenic": 0.000461,
+      "gwpLuluc": 0.000463,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 14,
+        "snippet": "GWP – total kg CO2e 4.52E+00 1.28E+01 7.28E+00 4.45E+00 -1.30E+01\nGWP – fossil kg CO2e 4.52E+00 1.28E+01 7.28E+00 4.45E+00 -1.29E+01\nGWP – biogenic kg CO2e 4.61E-04 2.90E-03 -7.43E-04 -1.42E-03 -4.06E-02\nGWP – LULUC kg CO2e 4.63E-04 5.72E-03 7.46E-04 2.54E-03 -1.79E-02",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C2": {
+      "declared": true,
+      "gwpTotal": 12.8,
+      "gwpFossil": 12.8,
+      "gwpBiogenic": 0.0029,
+      "gwpLuluc": 0.00572,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 14,
+        "snippet": "GWP – total kg CO2e 4.52E+00 1.28E+01 7.28E+00 4.45E+00 -1.30E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C3": {
+      "declared": true,
+      "gwpTotal": 7.28,
+      "gwpFossil": 7.28,
+      "gwpBiogenic": -0.000743,
+      "gwpLuluc": 0.000746,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 14,
+        "snippet": "GWP – total kg CO2e 4.52E+00 1.28E+01 7.28E+00 4.45E+00 -1.30E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C4": {
+      "declared": true,
+      "gwpTotal": 4.45,
+      "gwpFossil": 4.45,
+      "gwpBiogenic": -0.00142,
+      "gwpLuluc": 0.00254,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 14,
+        "snippet": "GWP – total kg CO2e 4.52E+00 1.28E+01 7.28E+00 4.45E+00 -1.30E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "D": {
+      "declared": true,
+      "gwpTotal": -13,
+      "gwpFossil": -12.9,
+      "gwpBiogenic": -0.0406,
+      "gwpLuluc": -0.0179,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 14,
+        "snippet": "GWP – total kg CO2e 4.52E+00 1.28E+01 7.28E+00 4.45E+00 -1.30E+01\nGWP – fossil kg CO2e 4.52E+00 1.28E+01 7.28E+00 4.45E+00 -1.29E+01\nGWP – biogenic kg CO2e 4.61E-04 2.90E-03 -7.43E-04 -1.42E-03 -4.06E-02\nGWP – LULUC kg CO2e 4.63E-04 5.72E-03 7.46E-04 2.54E-03 -1.79E-02",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    }
+  },
+  "notes": [
+    "Compressive strength class is listed as 'S50' in the document; the product name indicates 50MPa, so valueMpa is normalized to 50.",
+    "Manufacturing location covers 8 sites in the Melbourne metropolitan region of Victoria: Deer Park, Tullamarine, Somerton, Sunbury, Wollert, Melton, West Melbourne, and West Melbourne (wet). Results are averaged by production volume.",
+    "GWP-total A1-A3 = 2.68E+02 kg CO2e; GWP-fossil A1-A3 = 2.68E+02 kg CO2e (both round to 268).",
+    "Modules A4, A5, B1-B7 are explicitly 'Modules not declared' (ND) per the system boundaries table on page 5.",
+    "Scope is cradle-to-gate (A1-3) with modules C1-4, D."
+  ]
+}

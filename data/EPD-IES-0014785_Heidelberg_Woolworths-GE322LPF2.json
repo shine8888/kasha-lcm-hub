@@ -1,0 +1,302 @@
+{
+  "id": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2",
+  "sourceFile": "EPD-IES-0014785_Heidelberg_Woolworths-GE322LPF2.pdf",
+  "sourceFileHash": "d9d46111e117a95c98c91ad39f5aad6599fc2026ffe5b3f25d1aaf2b925d9ddd",
+  "extractedAt": "2026-06-30T03:23:00.273Z",
+  "extractor": {
+    "model": "claude-sonnet-4-6",
+    "schemaVersion": "1"
+  },
+  "manufacturer": {
+    "value": "Heidelberg Materials Australia Pty Ltd",
+    "provenance": {
+      "pageNumber": 22,
+      "snippet": "EPD Owner Heidelberg Materials Australia Pty Ltd\nL14, 35 Clarence St, Sydney NSW 2000",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "productName": {
+    "value": "GE322LPF2 - Hutchinson Builders - Woolworths Doolandella",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "GE322LPF2\nHutchinson Builders - Woolworths Doolandella\nQUEENSLAND - BRISBANE",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "declarationNumber": {
+    "value": "EPD-IES-0014785:001",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "EPD Registration Number: EPD-IES-0014785:001",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "publishedDate": "2024-11-19",
+  "validUntil": "2029-11-19",
+  "standard": {
+    "name": "EN 15804+A2",
+    "pcr": "Environdec c-PCR-003 Concrete, concrete elements (EN 16757:2023)",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "In Accordance with Environdec c-PCR-003 Concrete, concrete elements (EN 16757:2023), ISO 14025 and EN15804:A2",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "functionalUnit": {
+    "quantity": 1,
+    "unit": "m3",
+    "provenance": {
+      "pageNumber": 8,
+      "snippet": "Declared Unit is 1m3 of Concrete",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "compressiveStrength": {
+    "valueMpa": 32,
+    "strengthClass": "32",
+    "testAgeDays": null,
+    "provenance": {
+      "pageNumber": 17,
+      "snippet": "Compressive strength 32",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "manufacturingLocation": {
+    "city": "Brisbane",
+    "region": "Queensland",
+    "country": "Australia",
+    "provenance": {
+      "pageNumber": 17,
+      "snippet": "Production site(s) Brisbane",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "lifeCycle": {
+    "A1-A3": {
+      "declared": true,
+      "gwpTotal": 145,
+      "gwpFossil": 145,
+      "gwpBiogenic": 0.0483,
+      "gwpLuluc": 0.0321,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 18,
+        "snippet": "GWP-tot kg CO₂ eq. 1.45E+02 3.41E+00 1.01E+01 -3.17E+00 ... GWP-fos kg CO₂ eq. 1.45E+02",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A4": {
+      "declared": true,
+      "gwpTotal": 3.41,
+      "gwpFossil": 3.41,
+      "gwpBiogenic": 0.00133,
+      "gwpLuluc": 0.00115,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 18,
+        "snippet": "GWP-tot kg CO₂ eq. 1.45E+02 3.41E+00 1.01E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A5": {
+      "declared": true,
+      "gwpTotal": 10.1,
+      "gwpFossil": 10.1,
+      "gwpBiogenic": 0.00438,
+      "gwpLuluc": 0.00334,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 18,
+        "snippet": "GWP-tot kg CO₂ eq. 1.45E+02 3.41E+00 1.01E+01 -3.17E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B1": {
+      "declared": true,
+      "gwpTotal": -3.17,
+      "gwpFossil": -3.17,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 18,
+        "snippet": "GWP-tot kg CO₂ eq. 1.45E+02 3.41E+00 1.01E+01 -3.17E+00 0.00E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B2": {
+      "declared": true,
+      "gwpTotal": 0,
+      "gwpFossil": 0,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 18,
+        "snippet": "GWP-tot kg CO₂ eq. ... 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B3": {
+      "declared": true,
+      "gwpTotal": 0,
+      "gwpFossil": 0,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 18,
+        "snippet": "GWP-tot kg CO₂ eq. ... B3 ... 0.00E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B4": {
+      "declared": true,
+      "gwpTotal": 0,
+      "gwpFossil": 0,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 18,
+        "snippet": "GWP-tot kg CO₂ eq. ... B4 ... 0.00E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B5": {
+      "declared": true,
+      "gwpTotal": 0,
+      "gwpFossil": 0,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 18,
+        "snippet": "GWP-tot kg CO₂ eq. ... B5 ... 0.00E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B6": {
+      "declared": true,
+      "gwpTotal": 0,
+      "gwpFossil": 0,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 18,
+        "snippet": "GWP-tot kg CO₂ eq. ... B6 ... 0.00E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B7": {
+      "declared": true,
+      "gwpTotal": 0,
+      "gwpFossil": 0,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 18,
+        "snippet": "GWP-tot kg CO₂ eq. ... B7 ... 0.00E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C1": {
+      "declared": true,
+      "gwpTotal": 8.99,
+      "gwpFossil": 8.99,
+      "gwpBiogenic": 0.0016,
+      "gwpLuluc": 0.00113,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 18,
+        "snippet": "GWP-tot kg CO₂ eq. ... 8.99E+00 9.03E+00 5.19E+00 2.85E+00 -1.41E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C2": {
+      "declared": true,
+      "gwpTotal": 9.03,
+      "gwpFossil": 9.01,
+      "gwpBiogenic": 0.00645,
+      "gwpLuluc": 0.00524,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 18,
+        "snippet": "GWP-tot kg CO₂ eq. ... 8.99E+00 9.03E+00 5.19E+00 2.85E+00 -1.41E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C3": {
+      "declared": true,
+      "gwpTotal": 5.19,
+      "gwpFossil": 5.16,
+      "gwpBiogenic": 0.0193,
+      "gwpLuluc": 0.0147,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 18,
+        "snippet": "GWP-tot kg CO₂ eq. ... 8.99E+00 9.03E+00 5.19E+00 2.85E+00 -1.41E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C4": {
+      "declared": true,
+      "gwpTotal": 2.85,
+      "gwpFossil": 2.84,
+      "gwpBiogenic": 0.00188,
+      "gwpLuluc": 0.00153,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 18,
+        "snippet": "GWP-tot kg CO₂ eq. ... 8.99E+00 9.03E+00 5.19E+00 2.85E+00 -1.41E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "D": {
+      "declared": true,
+      "gwpTotal": -14.1,
+      "gwpFossil": -14,
+      "gwpBiogenic": -0.0565,
+      "gwpLuluc": -0.0245,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 18,
+        "snippet": "GWP-tot kg CO₂ eq. ... -1.41E+01\nGWP-fos kg CO₂ eq. ... -1.40E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    }
+  },
+  "notes": [
+    "This EPD covers multiple concrete mixes in the same document. The primary mix extracted is GE322LPF2 (32 MPa, General works). Other mixes in the same EPD suite include: CM201AJ53, CM251AF41, GE252VW12, GE252WA06, GE322LPE8, GE401VC95, GE402AHTK, GE402AJAW, GE402AJBH, GE402AZRH, GE402ZGR3, GE501AU08, P4020120, SS0GSAA14, SYP40SF35, ZLIQ5, ZWP40210.",
+    "Compressive strength is listed as '32' without explicit MPa unit in the product table on page 17, but page 20 confirms 32 MPa.",
+    "B1 value is -3.17 kg CO2 eq. due to recarbonation during use stage (carbonation credit).",
+    "B2-B7 values are all 0.00E+00 as the scenario assumes no maintenance, repair, or replacement is required during service life.",
+    "Manufacturing plants in the study include: Jindalee, Coopers Plains, Ipswich (Brisbane region).",
+    "GWP-GHG and GWP-tot values are identical for all stages in this EPD.",
+    "The full lifecycle GWP-tot (A1-A3 through D) per the summary table on page 20 is 167 kg CO2 eq./m3."
+  ]
+}

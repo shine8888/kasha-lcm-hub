@@ -1,0 +1,303 @@
+{
+  "id": "EPD-IES-0014769_P252080",
+  "sourceFile": "EPD-IES-0014769_P252080.pdf",
+  "sourceFileHash": "a5513d7fb68350ee38c946332ae29eed3846d64ada197a86c9f4fa7683385a02",
+  "extractedAt": "2026-06-30T03:21:59.002Z",
+  "extractor": {
+    "model": "claude-sonnet-4-6",
+    "schemaVersion": "1"
+  },
+  "manufacturer": {
+    "value": "Hanson Construction Materials Pty Ltd",
+    "provenance": {
+      "pageNumber": 24,
+      "snippet": "EPD Owner Hanson Construction Materials Pty Ltd\nL14, 35 Clarence St, Sydney NSW 2000",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "productName": {
+    "value": "P252080",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "P252080\nHutchinson Builders - Aliro Warehouse\nQueensland - Brisbane",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "declarationNumber": {
+    "value": "EPD-IES-0014769:001",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "EPD Registration Number: EPD-IES-0014769:001",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "publishedDate": "2024-08-26",
+  "validUntil": "2029-08-26",
+  "standard": {
+    "name": "EN15804:A2",
+    "pcr": "Environdec c-PCR-003 Concrete, concrete elements (EN 16757:2023)",
+    "provenance": {
+      "pageNumber": 24,
+      "snippet": "CEN standard EN 15804:A2 (PCR 2019:14 Construction Products, Version 1.3.4) served as the core PCR. Environdec c-PCR-003 Concrete, concrete elements (EN 16757:2023) served as sub-PCR.",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "functionalUnit": {
+    "quantity": 1,
+    "unit": "m3",
+    "provenance": {
+      "pageNumber": 20,
+      "snippet": "Declared Unit 1 m3",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "compressiveStrength": {
+    "valueMpa": 25,
+    "strengthClass": "25 MPa",
+    "testAgeDays": null,
+    "provenance": {
+      "pageNumber": 20,
+      "snippet": "Compressive Strength 25",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "manufacturingLocation": {
+    "plant": "Brisbane",
+    "city": "Brisbane",
+    "region": "Queensland",
+    "country": "Australia",
+    "provenance": {
+      "pageNumber": 20,
+      "snippet": "Production Site(S) Brisbane",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "lifeCycle": {
+    "A1-A3": {
+      "declared": true,
+      "gwpTotal": 127,
+      "gwpFossil": 126,
+      "gwpBiogenic": 0.0462,
+      "gwpLuluc": 0.0292,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 21,
+        "snippet": "GWP-tot kg CO₂ eq. 1.27E+02 ... GWP-fos kg CO₂ eq. 1.26E+02 ... GWP-bio kg CO₂ eq. 4.62E-02 ... GWP-luc kg CO₂ eq. 2.92E-02",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A4": {
+      "declared": true,
+      "gwpTotal": 2.45,
+      "gwpFossil": 2.45,
+      "gwpBiogenic": 0.000959,
+      "gwpLuluc": 0.000829,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 21,
+        "snippet": "GWP-tot kg CO₂ eq. ... 2.45E+00 ... GWP-fos kg CO₂ eq. ... 2.45E+00 ... GWP-bio kg CO₂ eq. ... 9.59E-04 ... GWP-luc kg CO₂ eq. ... 8.29E-04",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A5": {
+      "declared": true,
+      "gwpTotal": 9.95,
+      "gwpFossil": 9.94,
+      "gwpBiogenic": 0.00435,
+      "gwpLuluc": 0.00331,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 21,
+        "snippet": "GWP-tot kg CO₂ eq. ... 9.95E+00 ... GWP-fos kg CO₂ eq. ... 9.94E+00 ... GWP-bio kg CO₂ eq. ... 4.35E-03 ... GWP-luc kg CO₂ eq. ... 3.31E-03",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B1": {
+      "declared": true,
+      "gwpTotal": -2.65,
+      "gwpFossil": -2.65,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 21,
+        "snippet": "GWP-tot kg CO₂ eq. ... -2.65E+00 ... GWP-fos kg CO₂ eq. ... -2.65E+00 ... GWP-bio kg CO₂ eq. ... 0.00E+00 ... GWP-luc kg CO₂ eq. ... 0.00E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B2": {
+      "declared": true,
+      "gwpTotal": 0,
+      "gwpFossil": 0,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 21,
+        "snippet": "GWP-tot kg CO₂ eq. ... 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00 0.00E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B3": {
+      "declared": true,
+      "gwpTotal": 0,
+      "gwpFossil": 0,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 21,
+        "snippet": "GWP-tot kg CO₂ eq. ... B3 ... 0.00E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B4": {
+      "declared": true,
+      "gwpTotal": 0,
+      "gwpFossil": 0,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 21,
+        "snippet": "GWP-tot kg CO₂ eq. ... B4 ... 0.00E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B5": {
+      "declared": true,
+      "gwpTotal": 0,
+      "gwpFossil": 0,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 21,
+        "snippet": "GWP-tot kg CO₂ eq. ... B5 ... 0.00E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B6": {
+      "declared": true,
+      "gwpTotal": 0,
+      "gwpFossil": 0,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 21,
+        "snippet": "GWP-tot kg CO₂ eq. ... B6 ... 0.00E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B7": {
+      "declared": true,
+      "gwpTotal": 0,
+      "gwpFossil": 0,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 21,
+        "snippet": "GWP-tot kg CO₂ eq. ... B7 ... 0.00E+00",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C1": {
+      "declared": true,
+      "gwpTotal": 8.99,
+      "gwpFossil": 8.99,
+      "gwpBiogenic": 0.0016,
+      "gwpLuluc": 0.00113,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 21,
+        "snippet": "GWP-tot kg CO₂ eq. ... C1 ... 8.99E+00 ... GWP-fos ... 8.99E+00 ... GWP-bio ... 1.60E-03 ... GWP-luc ... 1.13E-03",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C2": {
+      "declared": true,
+      "gwpTotal": 8.85,
+      "gwpFossil": 8.84,
+      "gwpBiogenic": 0.00632,
+      "gwpLuluc": 0.00514,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 21,
+        "snippet": "GWP-tot kg CO₂ eq. ... C2 ... 8.85E+00 ... GWP-fos ... 8.84E+00 ... GWP-bio ... 6.32E-03 ... GWP-luc ... 5.14E-03",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C3": {
+      "declared": true,
+      "gwpTotal": 5.24,
+      "gwpFossil": 5.21,
+      "gwpBiogenic": 0.0189,
+      "gwpLuluc": 0.0144,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 21,
+        "snippet": "GWP-tot kg CO₂ eq. ... C3 ... 5.24E+00 ... GWP-fos ... 5.21E+00 ... GWP-bio ... 1.89E-02 ... GWP-luc ... 1.44E-02",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C4": {
+      "declared": true,
+      "gwpTotal": 2.79,
+      "gwpFossil": 2.79,
+      "gwpBiogenic": 0.00184,
+      "gwpLuluc": 0.0015,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 21,
+        "snippet": "GWP-tot kg CO₂ eq. ... C4 ... 2.79E+00 ... GWP-fos ... 2.79E+00 ... GWP-bio ... 1.84E-03 ... GWP-luc ... 1.50E-03",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "D": {
+      "declared": true,
+      "gwpTotal": 6.14,
+      "gwpFossil": 6.11,
+      "gwpBiogenic": 0.0189,
+      "gwpLuluc": 0.0144,
+      "unit": "kg CO₂ eq.",
+      "provenance": {
+        "pageNumber": 21,
+        "snippet": "GWP-tot kg CO₂ eq. ... D ... 6.14E+00 ... GWP-fos ... 6.11E+00 ... GWP-bio ... 1.89E-02 ... GWP-luc ... 1.44E-02",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    }
+  },
+  "notes": [
+    "This is a project-specific EPD for product P252080 (Hutchinson Builders - Aliro Warehouse, Brisbane, QLD).",
+    "The summary table on page 18 lists 19 products covered in the same document under different EPD registration numbers. P252080 (EPD-IES-0014769:001) is the primary product extracted here. Other products in the same document include: BN402BO31, BN402BS32, BN402DD36, GE322SM30, GE322XI41, GE402AA22, KM0G1AA22, P202080, P3220100, P322080, P402080, SAC322100, SAC32280, SAP252100, SAP25280, SAP322100, SAP32280, SAP40280.",
+    "GWP-tot for A1-A3 shown in summary table (page 18) as 127 kg CO2 eq./m3, consistent with LCA results table on page 21 showing 1.27E+02.",
+    "B1 shows a negative GWP-tot of -2.65 kg CO2 eq. representing recarbonation credit during use stage.",
+    "B2-B7 (except B1) and B6-B7 show zero values as the scenario assumes no maintenance/repair/replacement/operational energy/water use during service life.",
+    "Compressive strength listed as '25' MPa in product data table; no standard test age (28 days) explicitly stated.",
+    "The GWP-tot value in the summary table covers A1-A3 only per footnote 4 on page 18. Full lifecycle data is in page 21 table."
+  ]
+}

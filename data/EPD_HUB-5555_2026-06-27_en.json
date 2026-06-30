@@ -1,0 +1,210 @@
+{
+  "id": "EPD_HUB-5555_2026-06-27_en",
+  "sourceFile": "EPD_HUB-5555_2026-06-27_en.pdf",
+  "sourceFileHash": "1c30cd335aac76270cafd02c3e6a0b8ceefe71bf06f37649502163c1d4a8b407",
+  "extractedAt": "2026-06-30T03:27:15.921Z",
+  "extractor": {
+    "model": "claude-sonnet-4-6",
+    "schemaVersion": "1"
+  },
+  "manufacturer": {
+    "value": "Boral Limited",
+    "provenance": {
+      "pageNumber": 3,
+      "snippet": "Manufacturer Boral Limited",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "productName": {
+    "value": "40MPa 20mm Enviro 50% SCM 100SL Conc",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "40MPa 20mm Enviro 50% SCM 100SL Conc",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "declarationNumber": {
+    "value": "HUB-5555",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "EPD HUB, HUB-5555",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "publishedDate": "2026-02-26",
+  "validUntil": "2031-02-25",
+  "standard": {
+    "name": "EN 15804+A2",
+    "pcr": "EN 16757",
+    "provenance": {
+      "pageNumber": 3,
+      "snippet": "Reference standard EN 15804:2012+A2:2019/AC:2021 and ISO 14025\ncPCR EN 16757 Product Category Rules for concrete and concrete elements",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "functionalUnit": {
+    "quantity": 1,
+    "unit": "m3",
+    "provenance": {
+      "pageNumber": 4,
+      "snippet": "Declared unit 1 cubic metre",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "compressiveStrength": {
+    "valueMpa": 40,
+    "strengthClass": "S40",
+    "testAgeDays": 28,
+    "provenance": {
+      "pageNumber": 4,
+      "snippet": "Compressive strength class:\nS40\nStrength evaluation days:\n28 days",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "manufacturingLocation": {
+    "city": "Melbourne",
+    "country": "Australia",
+    "provenance": {
+      "pageNumber": 3,
+      "snippet": "Place of production Melbourne",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "lifeCycle": {
+    "A1-A3": {
+      "declared": true,
+      "gwpTotal": 220,
+      "gwpFossil": 220,
+      "gwpBiogenic": 0.0926,
+      "gwpLuluc": 0.074,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 13,
+        "snippet": "GWP – total kg CO2e 2.09E+02 6.12E+00 5.60E+00 2.20E+02\nGWP – fossil kg CO2e 2.08E+02 6.11E+00 5.60E+00 2.20E+02\nGWP – biogenic kg CO2e 8.04E-02 1.14E-02 7.60E-04 9.26E-02\nGWP – LULUC kg CO2e 7.35E-02 4.71E-05 4.60E-04 7.40E-02",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A4": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "A5": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "B1": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "B2": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "B3": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "B4": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "B5": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "B6": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "B7": {
+      "declared": false,
+      "reason": "Modules not declared"
+    },
+    "C1": {
+      "declared": true,
+      "gwpTotal": 4.45,
+      "gwpFossil": 4.45,
+      "gwpBiogenic": 0.000454,
+      "gwpLuluc": 0.000456,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 14,
+        "snippet": "GWP – total kg CO2e 4.45E+00 1.26E+01 7.16E+00 4.38E+00 -1.28E+01\nGWP – fossil kg CO2e 4.45E+00 1.26E+01 7.16E+00 4.38E+00 -1.27E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C2": {
+      "declared": true,
+      "gwpTotal": 12.6,
+      "gwpFossil": 12.6,
+      "gwpBiogenic": 0.00285,
+      "gwpLuluc": 0.00563,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 14,
+        "snippet": "GWP – total kg CO2e 4.45E+00 1.26E+01 7.16E+00 4.38E+00 -1.28E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C3": {
+      "declared": true,
+      "gwpTotal": 7.16,
+      "gwpFossil": 7.16,
+      "gwpBiogenic": -0.000731,
+      "gwpLuluc": 0.000734,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 14,
+        "snippet": "GWP – total kg CO2e 4.45E+00 1.26E+01 7.16E+00 4.38E+00 -1.28E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C4": {
+      "declared": true,
+      "gwpTotal": 4.38,
+      "gwpFossil": 4.38,
+      "gwpBiogenic": -0.00139,
+      "gwpLuluc": 0.0025,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 14,
+        "snippet": "GWP – total kg CO2e 4.45E+00 1.26E+01 7.16E+00 4.38E+00 -1.28E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "D": {
+      "declared": true,
+      "gwpTotal": -12.8,
+      "gwpFossil": -12.7,
+      "gwpBiogenic": -0.04,
+      "gwpLuluc": -0.0176,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 14,
+        "snippet": "GWP – total kg CO2e 4.45E+00 1.26E+01 7.16E+00 4.38E+00 -1.28E+01\nGWP – fossil kg CO2e 4.45E+00 1.26E+01 7.16E+00 4.38E+00 -1.27E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    }
+  },
+  "notes": [
+    "Compressive strength class is listed as 'S40' in the document; the product name states '40MPa'. The S40 designation has been mapped to 40 MPa.",
+    "Manufacturing covers 8 sites in the Melbourne metropolitan region: Deer Park, Tullamarine, Somerton, Sunbury, Wollert, Melton, West Melbourne, and West Melbourne (wet). Results are averaged by production volume.",
+    "A4 and A5 are explicitly marked as 'Modules not declared' (ND) in the system boundaries table.",
+    "B1 through B7 are all explicitly marked as 'Modules not declared' (ND) in the system boundaries table.",
+    "GWP-total for A1-A3 is 2.20E+02 = 220 kg CO2e; both GWP-total and GWP-fossil round to 220 kg CO2e per the environmental data summary.",
+    "The EPD scope is 'Cradle-to-gate (A1-3) with modules C1-4, D' as stated on page 3."
+  ]
+}

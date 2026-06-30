@@ -1,0 +1,231 @@
+{
+  "id": "epd-australasia-com-wp-content-uploads-2024-12-epd-ies-0014327-002-holcim-qld-seq-geostone-qx25mor-2026-04-02-pdf",
+  "sourceFile": "epd-australasia-com-wp-content-uploads-2024-12-epd-ies-0014327-002-holcim-qld-seq-geostone-qx25mor-2026-04-02-pdf.pdf",
+  "sourceFileHash": "d4edabd139a9d85c48a07b07edc23406eb8bd7b32d5a0d722b25c91fbbcb6ea3",
+  "extractedAt": "2026-06-30T03:32:12.228Z",
+  "extractor": {
+    "model": "claude-sonnet-4-6",
+    "schemaVersion": "1"
+  },
+  "manufacturer": {
+    "value": "Holcim (Australia) Pty Ltd",
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Holcim (Australia) Pty Ltd\nLevel 40, Northpoint Tower, 100 Miller St, North \nSydney NSW 2060, Australia",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "productName": {
+    "value": "QLD - SEQ - GEOStone - QX25MOR - S25 MORETON GEOSTONE - Decorative",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "QLD - SEQ - GEOStone - QX25MOR - S25 MORETON GEOSTONE - Decorative",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "declarationNumber": {
+    "value": "EPD-IES-0014327:002",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "EPD Registration No.: EPD-IES-0014327:002",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "publishedDate": "2026-04-02",
+  "validUntil": "2031-04-02",
+  "standard": {
+    "name": "EN 15804:2012+A2:2019/AC:2021",
+    "pcr": "PCR 2019:14 Construction Products, Version 2.0.1, 2025-06-05; c-PCR-003 Concrete and Concrete Elements, 2025-04-08",
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "CEN standard EN 15804:2012+A2:2019/AC:2021 serves as the core Product Category Rules (PCR)",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "functionalUnit": {
+    "quantity": 1,
+    "unit": "m3",
+    "provenance": {
+      "pageNumber": 6,
+      "snippet": "1 m3 of ready-mix concrete.",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "compressiveStrength": {
+    "valueMpa": 25,
+    "strengthClass": "25 MPa",
+    "testAgeDays": null,
+    "provenance": {
+      "pageNumber": 10,
+      "snippet": "Strength (MPa) Mix Code Weight (kg/m3) Mix Description\n25 QX25MOR 2361 S25 MORETON GEOSTONE Decorative",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "manufacturingLocation": {
+    "city": "Brisbane City, Acacia Ridge, Beaudesert, Beenleigh, Boonah, Cleveland, Geebung, Narangba, Wacol, Murarrie, Beerwah, Caloundra, Gympie, Caboolture, Noosa, Kawana, Southport, Tweed Heads, Burleigh Heads, Coomera, Raceview, Jacobs Well, Brendale, Darra, Nanango, Murgon, Toowoomba, Warwick",
+    "region": "QLD - SEQ",
+    "country": "Australia",
+    "provenance": {
+      "pageNumber": 10,
+      "snippet": "Brisbane City, Acacia Ridge, Beaudesert, Beenleigh, Boonah, Cleveland, Geebung, Narangba, Wacol, Murarrie, Beerwah, Caloundra, Gympie, Caboolture",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "lifeCycle": {
+    "A1-A3": {
+      "declared": true,
+      "gwpTotal": 237,
+      "gwpFossil": 237,
+      "gwpBiogenic": 0.605,
+      "gwpLuluc": 0.0291,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 16,
+        "snippet": "GWP-Total kg CO2 eq. 237 2.63 15.6 0.522 4.39 10.5 0 -18.8\nGWP-Fossil kg CO2 eq. 237 2.63 15.6\nGWP-Biogenic kg CO2 eq. 0.605\nGWP-Luluc kg CO2 eq. 0.0291",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A4": {
+      "declared": true,
+      "gwpTotal": 2.63,
+      "gwpFossil": 2.63,
+      "gwpBiogenic": 0.0000913,
+      "gwpLuluc": 0.0000673,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 16,
+        "snippet": "GWP-Total kg CO2 eq. 237 2.63 15.6 0.522 4.39 10.5 0 -18.8\nGWP-Fossil kg CO2 eq. 237 2.63",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A5": {
+      "declared": true,
+      "gwpTotal": 15.6,
+      "gwpFossil": 15.6,
+      "gwpBiogenic": 0.0234,
+      "gwpLuluc": 0.00979,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 16,
+        "snippet": "GWP-Total kg CO2 eq. 237 2.63 15.6 0.522 4.39 10.5 0 -18.8\nGWP-Biogenic kg CO2 eq. 0.605 0.0000913 0.0234",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B1": {
+      "declared": false,
+      "reason": "ND - not applicable for Holcim's ready-mix concrete ranges: Material emissions from usage (B1)"
+    },
+    "B2": {
+      "declared": false,
+      "reason": "ND - not applicable: Maintenance (B2)"
+    },
+    "B3": {
+      "declared": false,
+      "reason": "ND - not applicable: Repair (B3)"
+    },
+    "B4": {
+      "declared": false,
+      "reason": "ND - not applicable: Replacement (B4)"
+    },
+    "B5": {
+      "declared": false,
+      "reason": "ND - not applicable: Refurbishment (B5)"
+    },
+    "B6": {
+      "declared": false,
+      "reason": "ND - not applicable: Operational energy use (B6)"
+    },
+    "B7": {
+      "declared": false,
+      "reason": "ND - not applicable: Operational water use (B7)"
+    },
+    "C1": {
+      "declared": true,
+      "gwpTotal": 0.522,
+      "gwpFossil": 0.522,
+      "gwpBiogenic": 0.0000223,
+      "gwpLuluc": 0.0000184,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 16,
+        "snippet": "GWP-Total kg CO2 eq. 237 2.63 15.6 0.522 4.39 10.5 0 -18.8\nGWP-Fossil kg CO2 eq. 237 2.63 15.6 0.522",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C2": {
+      "declared": true,
+      "gwpTotal": 4.39,
+      "gwpFossil": 4.39,
+      "gwpBiogenic": 0.000152,
+      "gwpLuluc": 0.000112,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 16,
+        "snippet": "GWP-Total kg CO2 eq. 237 2.63 15.6 0.522 4.39 10.5 0 -18.8",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C3": {
+      "declared": true,
+      "gwpTotal": 10.5,
+      "gwpFossil": 10.5,
+      "gwpBiogenic": 0.00881,
+      "gwpLuluc": 0.00825,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 16,
+        "snippet": "GWP-Total kg CO2 eq. 237 2.63 15.6 0.522 4.39 10.5 0 -18.8\nGWP-Biogenic kg CO2 eq. 0.605 0.0000913 0.0234 0.0000223 0.000152 0.00881",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C4": {
+      "declared": true,
+      "gwpTotal": 0,
+      "gwpFossil": 0,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 16,
+        "snippet": "GWP-Total kg CO2 eq. 237 2.63 15.6 0.522 4.39 10.5 0 -18.8\nGWP-Fossil kg CO2 eq. 237 2.63 15.6 0.522 4.39 10.5 0",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "D": {
+      "declared": true,
+      "gwpTotal": -18.8,
+      "gwpFossil": -18.8,
+      "gwpBiogenic": -0.0152,
+      "gwpLuluc": -0.0172,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 16,
+        "snippet": "GWP-Total kg CO2 eq. 237 2.63 15.6 0.522 4.39 10.5 0 -18.8\nGWP-Fossil kg CO2 eq. 237 2.63 15.6 0.522 4.39 10.5 0 -18.8\nGWP-Biogenic kg CO2 eq. 0.605 0.0000913 0.0234 0.0000223 0.000152 0.00881 0 -0.0152\nGWP-Luluc kg CO2 eq. 0.0291 0.0000673 0.00979 0.0000184 0.000112 0.00825 0 -0.0172",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    }
+  },
+  "notes": [
+    "This EPD covers a single concrete mix: QX25MOR - S25 MORETON GEOSTONE - Decorative, 25 MPa.",
+    "Production sites span multiple locations in Queensland, Australia including Brisbane City, Acacia Ridge, Southport, Tweed Heads, Toowoomba, Warwick, and others.",
+    "C4 GWP values are reported as 0 in the LCA results table for all GWP sub-indicators.",
+    "The EPD valid from date on cover page shows '02/4/2026' which has been interpreted as 2 April 2026 (Australian date format DD/MM/YYYY).",
+    "GWP-GHG (excluding biogenic) for A1-A3 is also 237 kg CO2 eq. per the Additional Environmental Impact Indicators table on page 17.",
+    "B1-B7 are all declared as Not Declared (ND) as they are deemed not applicable for ready-mix concrete."
+  ]
+}

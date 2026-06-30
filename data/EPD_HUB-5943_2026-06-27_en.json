@@ -1,0 +1,233 @@
+{
+  "id": "EPD_HUB-5943_2026-06-27_en",
+  "sourceFile": "EPD_HUB-5943_2026-06-27_en.pdf",
+  "sourceFileHash": "7e7af7b6fe07341a5b743711d1f9e6bde062a6d6d3ad4659303ba96c4dd2f35a",
+  "extractedAt": "2026-06-30T03:29:58.310Z",
+  "extractor": {
+    "model": "claude-sonnet-4-6",
+    "schemaVersion": "1"
+  },
+  "manufacturer": {
+    "value": "Entire Concrete",
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Manufacturer  Entire Concrete",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "productName": {
+    "value": "N50/20 Xencrete",
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Product name  N50/20 Xencrete",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "declarationNumber": {
+    "value": "HUB-5943",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "EPD HUB, HUB-5943",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "publishedDate": "2026-04-09",
+  "validUntil": "2031-04-08",
+  "standard": {
+    "name": "EN 15804:2012+A2:2019/AC:2021 and ISO 14025",
+    "pcr": "EN 16757 Product Category Rules for concrete and concrete elements",
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Reference standard  EN 15804:2012+A2:2019/AC:2021 and ISO 14025\nPCR  EPD Hub Core PCR version 1.2, 24 Mar 2025\ncPCR  EN 16757 Product Category Rules for concrete and concrete elements",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "functionalUnit": {
+    "quantity": 1,
+    "unit": "cubic meter",
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Declared unit  1 cubic meter",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "compressiveStrength": {
+    "valueMpa": 50,
+    "strengthClass": "N50",
+    "testAgeDays": 28,
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Compressive strength class:\nN50\nStrength evaluation days:\n28 days",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "manufacturingLocation": {
+    "plant": "Cameron Park and Singleton",
+    "city": "Hunter Valley",
+    "region": "NSW",
+    "country": "Australia",
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Place of production  Hunter Valley, NSW, Australia",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "lifeCycle": {
+    "A1-A3": {
+      "declared": true,
+      "gwpTotal": 310,
+      "gwpFossil": 309,
+      "gwpBiogenic": 0.111,
+      "gwpLuluc": 0.0613,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 8,
+        "snippet": "GWP – total1) kg CO2e 2.70E+02 3.61E+01 3.65E+00 3.10E+02 ... GWP – fossil kg CO2e ... 3.09E+02 ... GWP – biogenic kg CO2e ... 1.11E‐01 ... GWP – LULUC kg CO2e ... 6.13E‐02",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A4": {
+      "declared": true,
+      "gwpTotal": 2.91,
+      "gwpFossil": 2.91,
+      "gwpBiogenic": 0.000659,
+      "gwpLuluc": 0.0013,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 8,
+        "snippet": "GWP – total1) kg CO2e ... A4 ... 2.91E+00 ... GWP – fossil ... 2.91E+00 ... GWP – biogenic ... 6.59E‐04 ... GWP – LULUC ... 1.30E‐03",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A5": {
+      "declared": true,
+      "gwpTotal": 17.5,
+      "gwpFossil": 17.4,
+      "gwpBiogenic": 0.00413,
+      "gwpLuluc": 0.00289,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 8,
+        "snippet": "GWP – total1) kg CO2e ... A5 ... 1.75E+01 ... GWP – fossil ... 1.74E+01 ... GWP – biogenic ... 4.13E‐03 ... GWP – LULUC ... 2.89E‐03",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B1": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "B2": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "B3": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "B4": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "B5": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "B6": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "B7": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "C1": {
+      "declared": true,
+      "gwpTotal": 4.32,
+      "gwpFossil": 4.32,
+      "gwpBiogenic": 0.000441,
+      "gwpLuluc": 0.000443,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 8,
+        "snippet": "GWP – total1) kg CO2e ... C1 ... 4.32E+00 ... GWP – fossil ... 4.32E+00 ... GWP – biogenic ... 4.41E‐04 ... GWP – LULUC ... 4.43E‐04",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C2": {
+      "declared": true,
+      "gwpTotal": 12.2,
+      "gwpFossil": 12.2,
+      "gwpBiogenic": 0.00277,
+      "gwpLuluc": 0.00547,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 8,
+        "snippet": "GWP – total1) kg CO2e ... C2 ... 1.22E+01 ... GWP – fossil ... 1.22E+01 ... GWP – biogenic ... 2.77E‐03 ... GWP – LULUC ... 5.47E‐03",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C3": {
+      "declared": true,
+      "gwpTotal": 6.96,
+      "gwpFossil": 6.96,
+      "gwpBiogenic": -0.00071,
+      "gwpLuluc": 0.000713,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 8,
+        "snippet": "GWP – total1) kg CO2e ... C3 ... 6.96E+00 ... GWP – fossil ... 6.96E+00 ... GWP – biogenic ... ‐7.10E‐04 ... GWP – LULUC ... 7.13E‐04",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C4": {
+      "declared": true,
+      "gwpTotal": 4.26,
+      "gwpFossil": 4.25,
+      "gwpBiogenic": -0.00135,
+      "gwpLuluc": 0.00243,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 8,
+        "snippet": "GWP – total1) kg CO2e ... C4 ... 4.26E+00 ... GWP – fossil ... 4.25E+00 ... GWP – biogenic ... ‐1.35E‐03 ... GWP – LULUC ... 2.43E‐03",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "D": {
+      "declared": true,
+      "gwpTotal": -11.7,
+      "gwpFossil": -11.7,
+      "gwpBiogenic": -0.0367,
+      "gwpLuluc": -0.0162,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 8,
+        "snippet": "GWP – total1) kg CO2e ... D ... ‐1.17E+01 ... GWP – fossil ... ‐1.17E+01 ... GWP – biogenic ... ‐3.67E‐02 ... GWP – LULUC ... ‐1.62E‐02",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    }
+  },
+  "notes": [
+    "This EPD covers a single product: N50/20 Xencrete (50 MPa ready-mix concrete with 20mm nominal aggregate).",
+    "Manufacturing plants included: Cameron Park and Singleton, both in Hunter Valley, NSW, Australia.",
+    "The A1-A3 combined row is explicitly declared in the LCA results table and used directly.",
+    "GWP-total A1-A3 summary on page 2 shows 310 kg CO2e (rounded), while the detailed table on page 8 shows 3.10E+02 = 310 kg CO2e.",
+    "GWP-fossil A1-A3 summary shows 309 kg CO2e; detailed table shows 3.09E+02 = 309 kg CO2e.",
+    "B1-B7 are all marked ND (Not Declared) in the LCA results table.",
+    "Functional unit is 1 cubic meter with a declared unit mass of 2272 kg."
+  ]
+}

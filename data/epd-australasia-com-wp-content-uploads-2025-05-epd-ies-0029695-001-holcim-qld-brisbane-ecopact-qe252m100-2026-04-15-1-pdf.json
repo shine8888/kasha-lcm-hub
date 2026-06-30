@@ -1,0 +1,231 @@
+{
+  "id": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf",
+  "sourceFile": "epd-australasia-com-wp-content-uploads-2025-05-epd-ies-0029695-001-holcim-qld-brisbane-ecopact-qe252m100-2026-04-15-1-pdf.pdf",
+  "sourceFileHash": "f072d08ba944ea35e589a853d53a3a7100f10243f13dd44fc9a6a110b478811c",
+  "extractedAt": "2026-06-30T03:33:05.416Z",
+  "extractor": {
+    "model": "claude-sonnet-4-6",
+    "schemaVersion": "1"
+  },
+  "manufacturer": {
+    "value": "Holcim (Australia) Pty Ltd",
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Holcim (Australia) Pty Ltd\nLevel 40, Northpoint Tower, 100 Miller St, North \nSydney NSW 2060, Australia",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "productName": {
+    "value": "QLD - Brisbane - ECOPact - QE252M100 - S25/20/100 Ecopact Concrete - General use",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "QLD - Brisbane - ECOPact - QE252M100 - S25/20/100 Ecopact Concrete - General \nuse",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "declarationNumber": {
+    "value": "EPD-IES-0029695:001",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "EPD Registration No.: EPD-IES-0029695:001",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "publishedDate": "2026-04-15",
+  "validUntil": "2031-04-15",
+  "standard": {
+    "name": "EN 15804:2012+A2:2019/AC:2021",
+    "pcr": "PCR 2019:14 Construction Products, Version 2.0.1, 2025-06-05; c-PCR-003 Concrete and Concrete Elements, 2025-04-08",
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "CEN standard EN 15804:2012+A2:2019/AC:2021 serves as the core Product Category Rules (PCR)",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "functionalUnit": {
+    "quantity": 1,
+    "unit": "m3",
+    "provenance": {
+      "pageNumber": 6,
+      "snippet": "1 m3 of ready-mix concrete.",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "compressiveStrength": {
+    "valueMpa": 25,
+    "strengthClass": "25 MPa",
+    "testAgeDays": null,
+    "provenance": {
+      "pageNumber": 10,
+      "snippet": "Strength\n(MPa) Mix Code Weight (kg/m3\n) Mix Description Applications / intended use\n25 QE252M100 2319 S25/20/100 Ecopact",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "manufacturingLocation": {
+    "city": "Brisbane",
+    "region": "Queensland",
+    "country": "Australia",
+    "provenance": {
+      "pageNumber": 10,
+      "snippet": "Brisbane City, Acacia Ridge, Beaudesert, Beenleigh, Boonah, Darra, Cleveland, Geebung, Narangba, Wacol, Murarrie,\nCaboolture, Brendale, Raceview.",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "lifeCycle": {
+    "A1-A3": {
+      "declared": true,
+      "gwpTotal": 146,
+      "gwpFossil": 145,
+      "gwpBiogenic": 0.822,
+      "gwpLuluc": 0.0489,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 16,
+        "snippet": "GWP-Total kg CO2 eq. 146 2.58 12.9 0.522 4.31 10.4 0 -18.5\nGWP-Fossil kg CO2 eq. 145 2.58 12.8 0.522 4.31 10.3 0 -18.5\nGWP-Biogenic kg CO2 eq. 0.822",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A4": {
+      "declared": true,
+      "gwpTotal": 2.58,
+      "gwpFossil": 2.58,
+      "gwpBiogenic": 0.0000896,
+      "gwpLuluc": 0.0000661,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 16,
+        "snippet": "GWP-Total kg CO2 eq. 146 2.58 12.9 0.522 4.31 10.4 0 -18.5\nGWP-Fossil kg CO2 eq. 145 2.58 12.8",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A5": {
+      "declared": true,
+      "gwpTotal": 12.9,
+      "gwpFossil": 12.8,
+      "gwpBiogenic": 0.0299,
+      "gwpLuluc": 0.0104,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 16,
+        "snippet": "GWP-Total kg CO2 eq. 146 2.58 12.9 0.522 4.31 10.4 0 -18.5\nGWP-Fossil kg CO2 eq. 145 2.58 12.8 0.522",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B1": {
+      "declared": false,
+      "reason": "ND - not applicable for Holcim's ready-mix concrete ranges: Material emissions from usage (B1)"
+    },
+    "B2": {
+      "declared": false,
+      "reason": "ND - not applicable: Maintenance (B2)"
+    },
+    "B3": {
+      "declared": false,
+      "reason": "ND - not applicable: Repair (B3)"
+    },
+    "B4": {
+      "declared": false,
+      "reason": "ND - not applicable: Replacement (B4)"
+    },
+    "B5": {
+      "declared": false,
+      "reason": "ND - not applicable: Refurbishment (B5)"
+    },
+    "B6": {
+      "declared": false,
+      "reason": "ND - not applicable: Operational energy use (B6)"
+    },
+    "B7": {
+      "declared": false,
+      "reason": "ND - not applicable: Operational water use (B7)"
+    },
+    "C1": {
+      "declared": true,
+      "gwpTotal": 0.522,
+      "gwpFossil": 0.522,
+      "gwpBiogenic": 0.0000223,
+      "gwpLuluc": 0.0000184,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 16,
+        "snippet": "GWP-Total kg CO2 eq. 146 2.58 12.9 0.522 4.31 10.4 0 -18.5\nGWP-Fossil kg CO2 eq. 145 2.58 12.8 0.522 4.31",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C2": {
+      "declared": true,
+      "gwpTotal": 4.31,
+      "gwpFossil": 4.31,
+      "gwpBiogenic": 0.00015,
+      "gwpLuluc": 0.00011,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 16,
+        "snippet": "GWP-Total kg CO2 eq. 146 2.58 12.9 0.522 4.31 10.4 0 -18.5\nGWP-Fossil kg CO2 eq. 145 2.58 12.8 0.522 4.31 10.3",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C3": {
+      "declared": true,
+      "gwpTotal": 10.4,
+      "gwpFossil": 10.3,
+      "gwpBiogenic": 0.00865,
+      "gwpLuluc": 0.0081,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 16,
+        "snippet": "GWP-Total kg CO2 eq. 146 2.58 12.9 0.522 4.31 10.4 0 -18.5\nGWP-Fossil kg CO2 eq. 145 2.58 12.8 0.522 4.31 10.3 0",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C4": {
+      "declared": true,
+      "gwpTotal": 0,
+      "gwpFossil": 0,
+      "gwpBiogenic": 0,
+      "gwpLuluc": 0,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 16,
+        "snippet": "GWP-Total kg CO2 eq. 146 2.58 12.9 0.522 4.31 10.4 0 -18.5\nGWP-Fossil kg CO2 eq. 145 2.58 12.8 0.522 4.31 10.3 0 -18.5",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "D": {
+      "declared": true,
+      "gwpTotal": -18.5,
+      "gwpFossil": -18.5,
+      "gwpBiogenic": -0.015,
+      "gwpLuluc": -0.0168,
+      "unit": "kg CO2 eq.",
+      "provenance": {
+        "pageNumber": 16,
+        "snippet": "GWP-Total kg CO2 eq. 146 2.58 12.9 0.522 4.31 10.4 0 -18.5\nGWP-Fossil kg CO2 eq. 145 2.58 12.8 0.522 4.31 10.3 0 -18.5",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    }
+  },
+  "notes": [
+    "This EPD covers a single mix: QE252M100 - S25/20/100 Ecopact Concrete (25 MPa, General use) for QLD Brisbane region.",
+    "C4 GWP values are reported as 0 in the LCA results table for all GWP indicators.",
+    "Production sites include Brisbane City, Acacia Ridge, Beaudesert, Beenleigh, Boonah, Darra, Cleveland, Geebung, Narangba, Wacol, Murarrie, Caboolture, Brendale, Raceview (all Queensland, Australia).",
+    "Valid from 15/4/2026 to 15/4/2031.",
+    "CO2 absorption (carbonation) during service life is not included in the EPD results.",
+    "GWP-GHG (additional indicator excluding biogenic) = 146 kg CO2 eq. for A1-A3, matching GWP-Total."
+  ]
+}

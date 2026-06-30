@@ -1,0 +1,232 @@
+{
+  "id": "EPD_HUB-5394_2026-06-27_en",
+  "sourceFile": "EPD_HUB-5394_2026-06-27_en.pdf",
+  "sourceFileHash": "5b25408a399734cf270ea7c7e60ede0b8fe9d0947e33dadf0023819a24f1bed0",
+  "extractedAt": "2026-06-30T03:25:02.667Z",
+  "extractor": {
+    "model": "claude-sonnet-4-6",
+    "schemaVersion": "1"
+  },
+  "manufacturer": {
+    "value": "Tandy Concrete",
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Manufacturer Tandy Concrete",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "productName": {
+    "value": "AN3220100Enhanced",
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Product name AN3220100Enhanced",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "declarationNumber": {
+    "value": "HUB-5394",
+    "provenance": {
+      "pageNumber": 1,
+      "snippet": "EPD HUB, HUB-5394",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "publishedDate": "2026-02-15",
+  "validUntil": "2031-02-14",
+  "standard": {
+    "name": "EN 15804+A2",
+    "pcr": "EN 16757 Product Category Rules for concrete and concrete elements",
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Reference standard EN 15804:2012+A2:2019/AC:2021 and ISO 14025\nPCR EPD Hub Core PCR version 1.2, 24 Mar 2025\ncPCR EN 16757 Product Category Rules for concrete and concrete elements",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "functionalUnit": {
+    "quantity": 1,
+    "unit": "m3",
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Declared unit 1 cubic meter",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "compressiveStrength": {
+    "valueMpa": 32,
+    "strengthClass": "N32",
+    "testAgeDays": 28,
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Compressive strength class:\nN32\nStrength evaluation days:\n28 days",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "manufacturingLocation": {
+    "plant": "21 Mackay Slade Point Road",
+    "city": "Mackay",
+    "country": "Australia",
+    "provenance": {
+      "pageNumber": 2,
+      "snippet": "Place of production 21 Mackay Slade Point Road, Mackay, Australia",
+      "confidence": "high",
+      "method": "vision-llm"
+    }
+  },
+  "lifeCycle": {
+    "A1-A3": {
+      "declared": true,
+      "gwpTotal": 232,
+      "gwpFossil": 232,
+      "gwpBiogenic": -0.0196,
+      "gwpLuluc": 0.025,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 9,
+        "snippet": "GWP – total1) kg CO2e 2,13E+02 1,59E+01 3,31E+00 2,32E+02",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A4": {
+      "declared": true,
+      "gwpTotal": 2.79,
+      "gwpFossil": 2.78,
+      "gwpBiogenic": 0.000631,
+      "gwpLuluc": 0.00125,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 9,
+        "snippet": "GWP – total1) kg CO2e ... 2,79E+00 1,51E+01 ND",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "A5": {
+      "declared": true,
+      "gwpTotal": 15.1,
+      "gwpFossil": 15.1,
+      "gwpBiogenic": 0.000206,
+      "gwpLuluc": 0.00181,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 9,
+        "snippet": "GWP – total1) kg CO2e ... 1,51E+01 ND ND ND ND ND ND ND",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "B1": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "B2": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "B3": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "B4": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "B5": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "B6": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "B7": {
+      "declared": false,
+      "reason": "ND"
+    },
+    "C1": {
+      "declared": true,
+      "gwpTotal": 4.48,
+      "gwpFossil": 4.47,
+      "gwpBiogenic": 0.000457,
+      "gwpLuluc": 0.000458,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 9,
+        "snippet": "GWP – total1) kg CO2e ... 4,48E+00 1,27E+01 7,20E+00 4,41E+00 ‐1,32E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C2": {
+      "declared": true,
+      "gwpTotal": 12.7,
+      "gwpFossil": 12.7,
+      "gwpBiogenic": 0.00287,
+      "gwpLuluc": 0.00566,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 9,
+        "snippet": "GWP – total1) kg CO2e ... 4,48E+00 1,27E+01 7,20E+00 4,41E+00 ‐1,32E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C3": {
+      "declared": true,
+      "gwpTotal": 7.2,
+      "gwpFossil": 7.2,
+      "gwpBiogenic": -0.000735,
+      "gwpLuluc": 0.000738,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 9,
+        "snippet": "GWP – total1) kg CO2e ... 7,20E+00 4,41E+00 ‐1,32E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "C4": {
+      "declared": true,
+      "gwpTotal": 4.41,
+      "gwpFossil": 4.4,
+      "gwpBiogenic": -0.0014,
+      "gwpLuluc": 0.00252,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 9,
+        "snippet": "GWP – total1) kg CO2e ... 4,41E+00 ‐1,32E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    },
+    "D": {
+      "declared": true,
+      "gwpTotal": -13.2,
+      "gwpFossil": -13.2,
+      "gwpBiogenic": -0.0414,
+      "gwpLuluc": -0.0183,
+      "unit": "kg CO2e",
+      "provenance": {
+        "pageNumber": 9,
+        "snippet": "GWP – total1) kg CO2e ... ‐1,32E+01",
+        "confidence": "high",
+        "method": "vision-llm"
+      }
+    }
+  },
+  "notes": [
+    "Single product EPD — no other mixes declared in this document.",
+    "Compressive strength class is 'N32' (Australian classification), equivalent to 32 MPa characteristic strength at 28 days per AS1379:2007.",
+    "GWP-biogenic for A1-A3 is -1.96E-02 kg CO2e (small negative value due to fly ash upstream credits).",
+    "Manufacturing location is the Mackay plant; Tandy Concrete also operates plants in Airlie Beach, Marian, Rockhampton, and Yeppoon.",
+    "A4 distance assumed at 11 km per scenario documentation.",
+    "A5 assumes 3% waste and 73.62 MJ diesel consumed.",
+    "GWP-total A1-A3 matches environmental data summary value of 232 kg CO2e."
+  ]
+}
