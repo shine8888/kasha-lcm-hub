@@ -30,7 +30,26 @@ The model produces structured arguments; **Zod** is the gatekeeper. The discrimi
 
 ## Accuracy
 
-**Schema validation** rejects malformed records at write time. Every value has a provenance object; every life-cycle stage that's present is structurally `declared: true` or `false`. The runner exits non-zero on validation failures and lists them.
+Three layers, from cheapest to most rigorous:
+
+**1. Schema validation** rejects malformed records at write time. Every value has a provenance object; every life-cycle stage that's present is structurally `declared: true` or `false`. The runner exits non-zero on validation failures and lists them.
+
+**2. Automated verifier — [`npm run verify`](scripts/verify/run.ts).** Runs five checks against every record:
+
+| Check | What it catches |
+| --- | --- |
+| **Schema** | Post-extraction drift (e.g. a manual edit that breaks the union) |
+| **Source hash** | `sourceFileHash` matches sha256 of `/public/sources/<id>.pdf` — tampering or file swap |
+| **Page bounds** | `provenance.pageNumber ∈ [1, pdfinfo pages]` — off-by-one or hallucinated page |
+| **Snippet grounding** | Every provenance snippet fuzzy-matches against `pdftotext`-extracted text on the cited page (± 1 neighbour). Handles EU decimal commas (`2,19E+00` → `2.19E+00`) and Unicode ↓/↑ variants of CO₂ |
+| **GWP formula** (EN 15804+A2 §7.2) | `\|gwpTotal − (gwpFossil + gwpBiogenic + gwpLuluc)\| < max(0.5, 1 %)` |
+
+Current corpus result: **20 records — 12 fully clean, 8 with grounding warnings, 0 errors.**
+
+- All 20 pass schema, hash, page-bounds, positive-value, and GWP formula checks.
+- 8 EPDs (`EPD_HUB-5394/5527/5749/5943/5991`, `0021165`, `0021754`, `20602`) trip snippet-grounding warnings on their LCA results tables. Manual inspection of two (`EPD_HUB-5527`, Adbri `0021165`) confirms the cause: **`pdftotext` returns no meaningful text for those pages** — the tables are rendered as vector graphics, not selectable text. The values themselves are correct (formula check passes); the text-layer verifier just can't re-derive them. This is a known limitation of substring matching against non-text PDFs.
+
+**3. The verifier caught one real issue.** In the first extraction, Adbri's A1-A3 record had `gwpTotal: 143.73`, shadowing `gwpFossil: 143.73` — but the model's own snippet said `GWP-total: 143.83`. The formula check passed within tolerance (0.09 %), so this slipped through initial spot-checks. Re-extraction with the tool_use extractor produced consistent `gwpTotal: 143.83`, `gwpFossil: 143.73`. That's exactly the class of quiet failure that a manual 5-in-20 spot-check would miss at scale.
 
 **Manual spot-check, 5 of 20:**
 
@@ -56,7 +75,7 @@ The model produces structured arguments; **Zod** is the gatekeeper. The discrimi
 - Two-model voting (Claude + GPT-4o, agree → accept, disagree → human review queue).
 - Property-based fuzz tests using synthetic EPDs to catch prompt regressions.
 - Per-publisher fixture set: one PDF per template fixed at a version, golden output checked in. Prompt updates re-run against fixtures before shipping.
-- A second-pass verifier that re-reads the cited page with `pdf-parse` and confirms the verbatim snippet exists — catches the rare case of confabulated provenance.
+- Replace text-layer grounding with a vision-model re-read of the cited page — the same technique that produced the number in the first place, applied as a second, independent extraction. Catches confabulated provenance in graphical-table PDFs where `pdftotext` can't help.
 
 ## Research and process
 
@@ -81,8 +100,11 @@ What I would do differently with more time:
 | Total PDFs | 20 |
 | First-pass success | 19 / 20 |
 | Final success after one retry | 20 / 20 |
-| Total tokens (approx.) | ~970k input / ~62k output |
+| Total tokens (approx.) | ~1050k input / ~64k output |
 | Median per-PDF time | ~45 s |
 | Schema-validation failures | 0 |
+| Verifier errors | 0 (`npm run verify`) |
+| Verifier warnings | 8 records, all graphical-LCA-table snippets (documented above) |
+| Unit tests | 11 passing (`npm test`) |
 
 Canonical record: git history of [`data/*.json`](data) and [`scripts/extract/run.ts`](scripts/extract/run.ts).

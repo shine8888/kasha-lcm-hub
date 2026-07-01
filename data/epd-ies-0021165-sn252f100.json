@@ -2,7 +2,7 @@
   "id": "epd-ies-0021165-sn252f100",
   "sourceFile": "epd-ies-0021165-sn252f100.pdf",
   "sourceFileHash": "fdd8788e42b5fc0f8eb018f88bb9fd03263be518272906a589d660f71e29ab91",
-  "extractedAt": "2026-06-30T03:33:56.675Z",
+  "extractedAt": "2026-07-01T11:43:55.846Z",
   "extractor": {
     "model": "claude-sonnet-4-6",
     "schemaVersion": "1"
@@ -11,7 +11,7 @@
     "value": "Adbri Limited",
     "provenance": {
       "pageNumber": 11,
-      "snippet": "Owner of the EPD: Adbri Limited, Level 4, 151 Pirie Street Adelaide SA 5000",
+      "snippet": "Owner of the EPD Adbri Limited\nLevel 4, 151 Pirie Street Adelaide SA 5000",
       "confidence": "high",
       "method": "vision-llm"
     }
@@ -20,7 +20,7 @@
     "value": "Adbri Concrete EPD—SN252F100",
     "provenance": {
       "pageNumber": 1,
-      "snippet": "Adbri Concrete EPD—SN252F100 South Australia",
+      "snippet": "Adbri Concrete\nEPD—SN252F100\nSouth Australia",
       "confidence": "high",
       "method": "vision-llm"
     }
@@ -38,10 +38,10 @@
   "validUntil": "2030-03-13",
   "standard": {
     "name": "EN 15804+A2:2019",
-    "pcr": "PCR 2019:14 Construction Products, Version 1.3.4; C-PCR-003 Concrete and Concrete Elements (EN 16757)",
+    "pcr": "PCR 2019:14, v1.3.4; C-PCR-003 Concrete and concrete elements (EN 16757), Version 2019-12-20",
     "provenance": {
       "pageNumber": 9,
-      "snippet": "CEN standard: EN 15804 +A2:2019 serves as the core PCR; Complementary Product Category Rules (C-PCR) 003 to PCR 2019:14 Concrete and concrete elements (EN 16757)",
+      "snippet": "CEN standard EN 15804 +A2:2019 serves as the core PCR\nProduct Category Rules (PCR) 2019:14 Construction products, Version 1.3.4\nComplementary Product Category Rules (C-PCR) 003 to PCR 2019:14 Concrete and concrete elements (EN 16757)",
       "confidence": "high",
       "method": "vision-llm"
     }
@@ -62,13 +62,12 @@
     "testAgeDays": null,
     "provenance": {
       "pageNumber": 32,
-      "snippet": "Futurecrete Normal Class GL Slag 25 MPa, Mix code SN252F100",
+      "snippet": "Futurecrete Normal Class GL Slag 25 MPa ... Mix code SN252F100",
       "confidence": "high",
       "method": "vision-llm"
     }
   },
   "manufacturingLocation": {
-    "city": "Adelaide",
     "region": "South Australia",
     "country": "Australia",
     "provenance": {
@@ -81,14 +80,14 @@
   "lifeCycle": {
     "A1-A3": {
       "declared": true,
-      "gwpTotal": 143.73,
+      "gwpTotal": 143.83,
       "gwpFossil": 143.73,
       "gwpBiogenic": 0.113,
       "gwpLuluc": 0.0177,
       "unit": "kg CO2 eq.",
       "provenance": {
         "pageNumber": 32,
-        "snippet": "GWP-fossil: 143.73, GWP-biogenic: 1.13E-01, GWP-luluc: 1.77E-02, GWP-total: 143.83 — SN252F100 Futurecrete Normal Class GL Slag 25 MPa",
+        "snippet": "GWP-total 143.83 GWP-fossil 143.73 GWP-biogenic 1.13E-01 GWP-luluc 1.77E-02 ... Mix code SN252F100",
         "confidence": "high",
         "method": "vision-llm"
       }
@@ -102,21 +101,14 @@
       "unit": "kg CO2 eq.",
       "provenance": {
         "pageNumber": 34,
-        "snippet": "GWPfossil: 9.64, GWP-biogenic: 0.00, GWP-luluc: 1.65E-05, GWP-total: 9.64 — Concrete produced at South Australia",
+        "snippet": "GWPfossil 9.64 GWP-biogenic 0.00 GWP-luluc 1.65E-05 GWP-total 9.64 ... Concrete produced at South Australia",
         "confidence": "high",
         "method": "vision-llm"
       }
     },
     "A5": {
-      "declared": true,
-      "gwpTotal": 0,
-      "unit": "kg CO2 eq.",
-      "provenance": {
-        "pageNumber": 18,
-        "snippet": "Modules declared: A5 X; the table shows A5 is included but specific LCA result values for A5 are not separately tabulated in the environmental performance tables",
-        "confidence": "low",
-        "method": "vision-llm"
-      }
+      "declared": false,
+      "reason": "Module A5 declared as X in system boundary table but no A5 GWP results table found in the document for mix SN252F100"
     },
     "B1": {
       "declared": false,
@@ -148,31 +140,31 @@
     },
     "C1": {
       "declared": false,
-      "reason": "C1-C4 and D are included in scope but no separate GWP results table found for these modules for mix SN252F100 in the document"
+      "reason": "C1-C4 and D declared in system boundary table as X but no separate results tables for these modules were found in the document for mix SN252F100"
     },
     "C2": {
       "declared": false,
-      "reason": "C1-C4 and D are included in scope but no separate GWP results table found for these modules for mix SN252F100 in the document"
+      "reason": "C1-C4 and D declared in system boundary table as X but no separate results tables for these modules were found in the document for mix SN252F100"
     },
     "C3": {
       "declared": false,
-      "reason": "C1-C4 and D are included in scope but no separate GWP results table found for these modules for mix SN252F100 in the document"
+      "reason": "C1-C4 and D declared in system boundary table as X but no separate results tables for these modules were found in the document for mix SN252F100"
     },
     "C4": {
       "declared": false,
-      "reason": "C1-C4 and D are included in scope but no separate GWP results table found for these modules for mix SN252F100 in the document"
+      "reason": "C1-C4 and D declared in system boundary table as X but no separate results tables for these modules were found in the document for mix SN252F100"
     },
     "D": {
       "declared": false,
-      "reason": "D is included in scope but no separate GWP results table found for module D for mix SN252F100 in the document"
+      "reason": "Module D declared in system boundary table as X but no separate results table for module D was found in the document for mix SN252F100"
     }
   },
   "notes": [
-    "This EPD covers only one mix: SN252F100 (Futurecrete Normal Class GL Slag 25 MPa). The EPD document describes that Adbri produces a range of concrete mixes in South Australia grouped by strength (20, 25, 32, 40, 50 MPa) and blend (GP cement, GL cement, fly ash, slag, ternary), but only SN252F100 appears in the published results tables.",
-    "The A1-A3 GWP-total value in Table 8 reads 143.83 kg CO2 eq., while the individual components sum to: GWP-fossil (143.73) + GWP-biogenic (0.113) + GWP-luluc (0.0177) = 143.86 — the table value of 143.83 is used as authoritative for gwpTotal.",
-    "Modules A5, C1-C4 and D are declared as 'X' (included) in Table 3, but no separate detailed GWP results table for these modules was found for mix SN252F100 in the document. Only A1-A3 and A4 tables with specific product data were visible.",
-    "The A4 GWP result (9.64 kg CO2 eq.) is provided for 'Concrete produced at South Australia' as a generic transport result, not specific to SN252F100 mix code.",
-    "Manufacturing sites in South Australia include: Burton, Dry Creek, Gawler, Gillman, Littlehampton, Lonsdale, Murray Bridge, Sellicks, Victor Harbor, Welland — results represent an average across these sites.",
-    "Foreground data is for FY2020-2021 (September 2020 to September 2021)."
+    "This EPD covers a single mix: SN252F100 (Futurecrete Normal Class, GL Slag 25 MPa, South Australia). Other strength classes and blend types (20, 32, 40, 50 MPa with GP/GL cement, fly ash, slag, ternary blends) are described as being in scope but only SN252F100 results are presented in the environmental performance tables.",
+    "GWP-biogenic for A1-A3 is reported as 1.13E-01 = 0.113 kg CO2 eq.; GWP-luluc for A1-A3 is 1.77E-02 = 0.0177 kg CO2 eq.",
+    "Module A5 and modules C1-C4 and D are listed as declared (X) in the system boundary table (page 18), but no numerical LCA results tables for these modules were visible in the PDF for mix SN252F100. Only A1-A3 and A4 results tables were found.",
+    "The EPD title states 'SN252F100' which corresponds to Futurecrete Normal Class GL Slag 25 MPa in South Australia.",
+    "Compressive strength is 25 MPa based on product grouping; no test age (days) specified in the document.",
+    "Manufacturing location covers 10 sites across South Australia (Burton, Dry Creek, Gawler, Gillman, Littlehampton, Lonsdale, Murray Bridge, Sellicks, Victor Harbor, Welland)."
   ]
 }

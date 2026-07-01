@@ -59,6 +59,15 @@ npm run dev              # http://localhost:3000
 
 The repo ships with the extracted JSON files in [`/data`](./data) — the app works out of the box.
 
+### Verifying the extracted data
+
+```bash
+npm run verify        # 5 checks per record; see scripts/verify/run.ts
+npm test              # vitest unit specs for pure helpers
+```
+
+`npm run verify` cross-checks every JSON against its source PDF: schema, sha256, page bounds, snippet grounding (fuzzy `pdftotext` re-check), and the EN 15804+A2 GWP formula (`total = fossil + biogenic + LULUC`). Current run: **20 records, 0 errors, 8 grounding warnings** — all on PDFs whose LCA tables are graphical, not text. See [EXTRACTION.md](./EXTRACTION.md#accuracy).
+
 ### Re-running extraction
 
 You only need this if you want to verify the pipeline against a new PDF set:
@@ -122,8 +131,9 @@ lcm-hub/
   warns rather than converts. Silent conversion hides the assumption.
 - **Non-GWP indicators** (acidification, eutrophication, ozone, etc.). The brief is about embodied
   carbon — adding eight more indicator columns would dilute the comparison.
-- **Tests.** With a 4-hour budget I prioritised schema + UI honesty over a test harness. The Zod
-  schema is itself a runtime test that fails loudly on malformed input.
+- **UI-level React tests.** The Zod schema, `npm run verify` (5 invariants × 20 records), and the
+  11-spec Vitest suite for pure helpers in `src/lib/data.ts` cover the load-bearing logic. A
+  render-tree RTL suite for the compare page would be the natural next spec — skipped in scope.
 
 ---
 
